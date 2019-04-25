@@ -5,11 +5,11 @@
 
 
 template <typename T, typename O>
-class KriteriumNazov : public Kriterium<std::string, Data>//, public Kriterium<std::string, int>
+class KriteriumNazov : public Kriterium<std::string, Data>
 {
 public:
 	std::string ohodnot(Data& obj) override { return obj.getNazov(); }
-	KriteriumNazov();	
+	KriteriumNazov();
 
 };
 

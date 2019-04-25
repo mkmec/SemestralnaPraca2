@@ -6,8 +6,13 @@
 #include <algorithm>
 #include <errno.h>
 #include "KriteriumNazov.h"
+#include "KriteriumVolici.h"
+#include "KriteriumVydaneObalky.h"
+#include "KriteriumOdovzdaneObalky.h"
+#include "KriteriumUcast.h"
 #include "Kriterium.h"
 #include "FilterNazov.h"
+#include <iomanip>
 
 
 using namespace std;
@@ -16,31 +21,65 @@ using namespace structures;
 void Menu::vypisInfoOUzemnychJednotkach()
 {
 	int volba;
+	Kriterium<string, Data>* kriteriumNazov = new KriteriumNazov<string, Data>();
+	KriteriumVolici<int, Data>* kriteriumVolici = new KriteriumVolici<int, Data>();
+	KriteriumVydaneObalky<int, Data>* kriteriumVydaneObalky = new KriteriumVydaneObalky<int, Data>();
+	KriteriumUcast<double, Data>* kriteriumUcast = new KriteriumUcast<double, Data>();
+	KriteriumOdovzdaneObalky<int, Data>* kriteriumOdovzdaneObalky = new KriteriumOdovzdaneObalky<int, Data>();
+	
 
 	cout << "Podla akeho filtra si prajete vypisat info:\n"
 			"1. Nazov\n"
 			"2. Volici\n"
 			"3. Ucast\n"
-			">>\n";	
+			">>";	
+	volba = Menu::skontrolujIntVstup();
 	
 
 	switch (volba)
 	{
-	case1: 
+	case 1: 
 		{
 			string uzJednotka;
 			cout << "Zadajte nazov uzemnej jednotky:\n"
-				">>\n";
+				">>";
 			cin >> uzJednotka;
 			DataObec* obec;
 			obecData->tryFind(uzJednotka, obec);
 
+			if (obec != nullptr)
+			{
+				cout << endl << "Nazov uzemnej jednotky: " << kriteriumNazov->ohodnot(*obec) << endl;				
+				cout << "Uzemna jednotka patri do vyssich celkov: " << obec->getOkres() << ", " << obec->getKraj() << endl;
+				kriteriumVolici->setKolo(1);
+				cout << "Pocet volicov " << kriteriumVolici->ohodnot(*obec) << " v prvom kole a ";
+				kriteriumVolici->setKolo(2);
+				cout << kriteriumVolici->ohodnot(*obec) << " v druhom kole." << endl;
+
+				kriteriumVydaneObalky->setKolo(1);
+				cout << "Pocet vydanych obalok " << kriteriumVydaneObalky->ohodnot(*obec) << " v prvom kole a ";
+				kriteriumVydaneObalky->setKolo(2);
+				cout << kriteriumVydaneObalky->ohodnot(*obec) << " v druhom kole." << endl;
+
+				kriteriumUcast->setKolo(1);
+				cout << "Ucast " << kriteriumUcast->ohodnot(*obec) << "% v prvom kole a ";
+				kriteriumUcast->setKolo(2);
+				cout << kriteriumUcast->ohodnot(*obec) << "% v druhom kole." << endl;
+
+				kriteriumOdovzdaneObalky->setKolo(1);
+				cout << "Pocet odovzdanych obalok " << kriteriumOdovzdaneObalky->ohodnot(*obec) << " v prvom kole a ";
+				kriteriumOdovzdaneObalky->setKolo(2);
+				cout << kriteriumOdovzdaneObalky->ohodnot(*obec) << " v druhom kole." << endl;
+			}
 
 			break;
 		}
 	default:
 		break;
 	}
+
+	delete kriteriumNazov;
+	delete kriteriumVolici;
 }
 
 void Menu::vypisMenu()
@@ -83,10 +122,10 @@ int Menu::skontrolujIntVstup()
 
 void Menu::nacitajData()
 {
-	ifstream stream("obceKolo1.csv");	
-	string line, obec, okres, kraj, var1, var2, var3, var4, var5;
-	int pocetZapisanychVolicov, pocetVydanychObalok, pocetOdovzdanychObalok;
-	double ucast;
+	ifstream stream("dataObce2.csv");	
+	string line, obec, okres, kraj, var1, var2, var3, var4, var5, var6, var7, var8, var9, var10;
+	int pocetZapisanychVolicov, pocetVydanychObalok, pocetOdovzdanychObalok, pocetPlatnychHlasov, pocetZapisanychVolicov2, pocetVydanychObalok2, pocetOdovzdanychObalok2, pocetPlatnychHlasov2;
+	double ucast, ucast2;
 	int test = 0;
 	int cisloObce = 0;
 	cout << "\nPrebieha nacitavanie...\n";
@@ -103,6 +142,11 @@ void Menu::nacitajData()
 		getline(pomStream, var3, ';');
 		getline(pomStream, var4, ';');
 		getline(pomStream, var5, ';');
+		getline(pomStream, var6, ';');
+		getline(pomStream, var7, ';');
+		getline(pomStream, var8, ';');
+		getline(pomStream, var9, ';');
+		getline(pomStream, var10, ';');
 
 		/*var1.erase(remove_if(var1.begin(), var1.end(), isspace), var1.end());
 		var2.erase(remove_if(var2.begin(), var2.end(), isspace), var2.end());
@@ -111,8 +155,22 @@ void Menu::nacitajData()
 		pocetVydanychObalok = stoi(var2);
 		ucast = stod(var3);
 		pocetOdovzdanychObalok = stoi(var4);
+		pocetPlatnychHlasov = stoi(var5);
+		pocetZapisanychVolicov2 = stoi(var6);
+		pocetVydanychObalok2 = stoi(var7);
+		ucast2 = stod(var8);
+		pocetOdovzdanychObalok2 = stoi(var9);
+		pocetPlatnychHlasov2 = stoi(var10);
 
-		DataObec* newObec = new DataObec(obec, okres, kraj, pocetZapisanychVolicov, pocetVydanychObalok, ucast, pocetOdovzdanychObalok);
+		do
+		{
+			DataObec* newObec = new DataObec(obec, okres, kraj, pocetZapisanychVolicov, pocetVydanychObalok, ucast, pocetOdovzdanychObalok, pocetPlatnychHlasov, pocetZapisanychVolicov2, pocetVydanychObalok2, ucast2, pocetOdovzdanychObalok2, pocetPlatnychHlasov2);
+			if (obecData->insert(obec, newObec)) break;
+			delete newObec;
+			obec = obec + " okres " + okres;
+		} while (true);
+
+		/*DataObec* newObec = new DataObec(obec, okres, kraj, pocetZapisanychVolicov, pocetVydanychObalok, ucast, pocetOdovzdanychObalok);
 		cisloObce = stoi(var5);
 		if (!obecData->insert(obec, newObec))
 		{
@@ -121,7 +179,7 @@ void Menu::nacitajData()
 			DataObec* newObec = new DataObec(obec, okres, kraj, pocetZapisanychVolicov, pocetVydanychObalok, ucast, pocetOdovzdanychObalok);
 			obecData->insert(obec, newObec);
 		}
-		test++;
+		test++;*/
 	}
 	cout << "\nNacitavanie dokoncene.\n";
 }

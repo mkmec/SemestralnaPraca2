@@ -27,6 +27,10 @@
     <ClInclude Include="Filter_FI.h" />
     <ClInclude Include="Kriterium.h" />
     <ClInclude Include="KriteriumNazov.h" />
+    <ClInclude Include="KriteriumOdovzdaneObalky.h" />
+    <ClInclude Include="KriteriumUcast.h" />
+    <ClInclude Include="KriteriumVolici.h" />
+    <ClInclude Include="KriteriumVydaneObalky.h" />
     <ClInclude Include="Menu.h" />
     <ClInclude Include="structures\array\array.h" />
     <ClInclude Include="structures\ds_routines.h" />

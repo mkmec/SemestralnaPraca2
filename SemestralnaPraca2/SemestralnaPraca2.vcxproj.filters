@@ -216,6 +216,18 @@
     <ClInclude Include="FilterNazov.h">
       <Filter>Header Files\Filtre</Filter>
     </ClInclude>
+    <ClInclude Include="KriteriumVolici.h">
+      <Filter>Header Files\Kriteria</Filter>
+    </ClInclude>
+    <ClInclude Include="KriteriumVydaneObalky.h">
+      <Filter>Header Files\Kriteria</Filter>
+    </ClInclude>
+    <ClInclude Include="KriteriumUcast.h">
+      <Filter>Header Files\Kriteria</Filter>
+    </ClInclude>
+    <ClInclude Include="KriteriumOdovzdaneObalky.h">
+      <Filter>Header Files\Kriteria</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
