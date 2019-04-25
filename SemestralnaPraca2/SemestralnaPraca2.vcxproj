@@ -19,7 +19,12 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Data.h" />
     <ClInclude Include="DataObec.h" />
+    <ClInclude Include="Filter.h" />
+    <ClInclude Include="Filterfi.h" />
+    <ClInclude Include="FilterNazov.h" />
+    <ClInclude Include="Filter_FI.h" />
     <ClInclude Include="Kriterium.h" />
     <ClInclude Include="KriteriumNazov.h" />
     <ClInclude Include="Menu.h" />
@@ -77,8 +82,8 @@
     <ClInclude Include="structures\vector\vector.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Data.cpp" />
     <ClCompile Include="DataObec.cpp" />
-    <ClCompile Include="KriteriumNazov.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Menu.cpp" />
     <ClCompile Include="structures\ds_routines.cpp" />

@@ -6,10 +6,11 @@
 class Menu
 {
 private:
-	structures::SortedSequenceTable<int, DataObec*>* obecData;
+	structures::SortedSequenceTable<std::string, DataObec*>* obecData;
 
 	bool run_ = true;
 
+	void vypisInfoOUzemnychJednotkach();
 	void vypisMenu();
 	int skontrolujIntVstup();
 	void nacitajData();

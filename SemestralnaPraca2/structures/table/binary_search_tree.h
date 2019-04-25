@@ -61,7 +61,7 @@ namespace structures
 		/// <param name = "key"> Kluc vkladanych dat. </param>
 		/// <param name = "data"> Vkladane data. </param>
 		/// <exception cref="std::logic_error"> Vyhodena, ak tabulka uz obsahuje data s takymto klucom. </exception>  
-		void insert(const K& key, const T& data) override;
+		bool insert(const K& key, const T& data) override;
 
 		/// <summary> Odstrani z tabulky prvok s danym klucom. </summary>
 		/// <param name = "key"> Kluc prvku. </param>
@@ -181,7 +181,7 @@ namespace structures
 	}
 
 	template<typename K, typename T>
-	inline void BinarySearchTree<K, T>::insert(const K & key, const T & data)
+	inline bool BinarySearchTree<K, T>::insert(const K & key, const T & data)
 	{
 		//TODO 10: BinarySearchTree
 		throw std::exception("BinarySearchTree<K, T>::insert: Not implemented yet.");

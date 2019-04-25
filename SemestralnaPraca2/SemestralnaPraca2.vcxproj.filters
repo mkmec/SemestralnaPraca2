@@ -25,6 +25,12 @@
     <Filter Include="Source Files\structures">
       <UniqueIdentifier>{26a1ce11-3227-4e9d-893d-e04a1b094406}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\Filtre">
+      <UniqueIdentifier>{c82989ce-64a7-4928-a71d-5280aaa679c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Filtre">
+      <UniqueIdentifier>{8a2b8635-fe35-45b0-bf89-d68f8f00fd8b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Kriterium.h">
@@ -195,11 +201,23 @@
     <ClInclude Include="DataObec.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Filterfi.h">
+      <Filter>Header Files\Filtre</Filter>
+    </ClInclude>
+    <ClInclude Include="Filter_FI.h">
+      <Filter>Header Files\Filtre</Filter>
+    </ClInclude>
+    <ClInclude Include="Data.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Filter.h">
+      <Filter>Header Files\Filtre</Filter>
+    </ClInclude>
+    <ClInclude Include="FilterNazov.h">
+      <Filter>Header Files\Filtre</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="KriteriumNazov.cpp">
-      <Filter>Source Files\Kriteria</Filter>
-    </ClCompile>
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -237,6 +255,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="DataObec.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Data.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

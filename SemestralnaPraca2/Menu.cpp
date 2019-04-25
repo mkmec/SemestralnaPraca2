@@ -5,11 +5,43 @@
 #include <sstream>
 #include <algorithm>
 #include <errno.h>
-
+#include "KriteriumNazov.h"
+#include "Kriterium.h"
+#include "FilterNazov.h"
 
 
 using namespace std;
 using namespace structures;
+
+void Menu::vypisInfoOUzemnychJednotkach()
+{
+	int volba;
+
+	cout << "Podla akeho filtra si prajete vypisat info:\n"
+			"1. Nazov\n"
+			"2. Volici\n"
+			"3. Ucast\n"
+			">>\n";	
+	
+
+	switch (volba)
+	{
+	case1: 
+		{
+			string uzJednotka;
+			cout << "Zadajte nazov uzemnej jednotky:\n"
+				">>\n";
+			cin >> uzJednotka;
+			DataObec* obec;
+			obecData->tryFind(uzJednotka, obec);
+
+
+			break;
+		}
+	default:
+		break;
+	}
+}
 
 void Menu::vypisMenu()
 {
@@ -51,35 +83,16 @@ int Menu::skontrolujIntVstup()
 
 void Menu::nacitajData()
 {
-	ifstream stream("obceKolo1.csv");
-	//stream.open("obceKolo1.csv");
+	ifstream stream("obceKolo1.csv");	
 	string line, obec, okres, kraj, var1, var2, var3, var4, var5;
 	int pocetZapisanychVolicov, pocetVydanychObalok, pocetOdovzdanychObalok;
 	double ucast;
-	//int test = 1;
+	int test = 0;
 	int cisloObce = 0;
 	cout << "\nPrebieha nacitavanie...\n";
 
-
-	//FILE *fp;
-	//fopen_s(&fp, "obceKolo1.csv", "r");	
-
-	//if (fp != NULL) {
-	//	cout << test << endl;
-	//	while (feof(fp) == 0) {//(fscanf_s(fp, "%s, %s, %s, %d,%d, %f, %d", obec, okres, kraj, &var1, &var2, &var3, &var4) == 7) {
-	//		fscanf_s(fp, "%s", obec);
-	//		DataObec* newObec = new DataObec(obec, okres, kraj, stoi(var1.c_str()), stoi(var2), atof(var3.c_str()), stoi(var4));
-	//		obecData->insert(test, newObec);
-	//		test++;
-	//	}
-	//	fclose(fp);
-	//}
-
-
 	while (getline(stream, line))
 	{
-		//cout << test << endl;
-		//getline(stream, line);
 		stringstream pomStream(line);
 
 		getline(pomStream, obec, ';');
@@ -101,15 +114,21 @@ void Menu::nacitajData()
 
 		DataObec* newObec = new DataObec(obec, okres, kraj, pocetZapisanychVolicov, pocetVydanychObalok, ucast, pocetOdovzdanychObalok);
 		cisloObce = stoi(var5);
-		obecData->insert(cisloObce, newObec);
-		//test++;
+		if (!obecData->insert(obec, newObec))
+		{
+			delete newObec;
+			obec = obec + " okres " + okres;
+			DataObec* newObec = new DataObec(obec, okres, kraj, pocetZapisanychVolicov, pocetVydanychObalok, ucast, pocetOdovzdanychObalok);
+			obecData->insert(obec, newObec);
+		}
+		test++;
 	}
 	cout << "\nNacitavanie dokoncene.\n";
 }
 
 void Menu::vyber()
 {
-	int volba = 0;	
+	int volba = 0;
 
 	while (run_)
 	{
@@ -122,6 +141,19 @@ void Menu::vyber()
 		case 0:
 			run_ = false;
 			break;
+
+		case 1:
+		{
+			Menu::vypisInfoOUzemnychJednotkach();
+			/*Kriterium<string, Data>* kriterium = new KriteriumNazov<string, Data>();
+			for (int i = 0; i < 10; i++)
+			{
+				DataObec* data = obecData->operator[](i);
+				cout << kriterium->ohodnot(*data) << endl;
+			}
+			delete kriterium;*/
+			break;
+		}
 
 		case 10:
 			Menu::nacitajData();
@@ -136,16 +168,16 @@ void Menu::vyber()
 }
 
 Menu::Menu() :
-	obecData(new SortedSequenceTable<int, DataObec*>())
+	obecData(new SortedSequenceTable<string, DataObec*>())
 {
 }
 
 
 Menu::~Menu()
 {
-	for (TableItem<int, DataObec*>* item : *obecData)
+	for (TableItem<string, DataObec*>* item : *obecData)
 	{
 		delete item->accessData();
-	}	
+	}
 	delete obecData;
 }

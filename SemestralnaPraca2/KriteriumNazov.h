@@ -1,16 +1,19 @@
 #pragma once
 #include <string>
 #include "Kriterium.h"
+#include "Data.h"
 
 
-
-class KriteriumNazov : public Kriterium<std::string, int>
+template <typename T, typename O>
+class KriteriumNazov : public Kriterium<std::string, Data>//, public Kriterium<std::string, int>
 {
 public:
-	std::string ohodnot(const int* obj);
+	std::string ohodnot(Data& obj) override { return obj.getNazov(); }
+	KriteriumNazov();	
 
-	KriteriumNazov();
-	~KriteriumNazov();
 };
 
-	
+template<typename T, typename O>
+inline KriteriumNazov<T, O>::KriteriumNazov()
+{
+}

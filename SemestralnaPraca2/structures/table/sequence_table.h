@@ -51,7 +51,7 @@ namespace structures
 		/// <param name = "key"> Kluc vkladanych dat. </param>
 		/// <param name = "data"> Vkladane data. </param>
 		/// <exception cref="std::logic_error"> Vyhodena, ak tabulka uz obsahuje data s takymto klucom. </exception>  
-		void insert(const K& key, const T& data) override;
+		bool insert(const K& key, const T& data) override;
 
 		/// <summary> Odstrani z tabulky prvok s danym klucom. </summary>
 		/// <param name = "key"> Kluc prvku. </param>
@@ -166,16 +166,18 @@ namespace structures
 	}
 
 	template<typename K, typename T>
-	inline void SequenceTable<K, T>::insert(const K & key, const T & data)
+	inline bool SequenceTable<K, T>::insert(const K & key, const T & data)
 	{
 		if (!containsKey(key))
 		{
 			TableItem<K, T>* tableItem = new TableItem<K, T>(key, data);
 			list_->add(tableItem);
+			return true;
 		}
 		else
 		{
-			throw std::logic_error("SequenceTable<K, T>::insert: Key already present in the table!");
+			//throw std::logic_error("SequenceTable<K, T>::insert: Key already present in the table!");
+			return false;
 		}
 	}
 

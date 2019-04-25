@@ -70,7 +70,7 @@ namespace structures
 		/// <param name = "key"> Kluc vkladanych dat. </param>
 		/// <param name = "data"> Vkladane data. </param>
 		/// <exception cref="std::logic_error"> Vyhodena, ak tabulka uz obsahuje data s takymto klucom. </exception>  
-		virtual void insert(const K& key, const T& data) = 0;
+		virtual bool insert(const K& key, const T& data) = 0;
 
 		/// <summary> Odstrani z tabulky prvok s danym klucom. </summary>
 		/// <param name = "key"> Kluc prvku. </param>

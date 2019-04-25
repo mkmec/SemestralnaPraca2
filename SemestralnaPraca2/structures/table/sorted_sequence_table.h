@@ -28,7 +28,7 @@ namespace structures
 		/// <param name = "key"> Kluc vkladanych dat. </param>
 		/// <param name = "data"> Vkladane data. </param>
 		/// <exception cref="std::logic_error"> Vyhodena, ak tabulka uz obsahuje data s takymto klucom. </exception>  
-		void insert(const K& key, const T& data) override;
+		bool insert(const K& key, const T& data) override;
 	protected:
 		/// <summary> Najde prvok tabulky s danym klucom. </summary>
 		/// <param name = "key"> Hladany kluc. </param>
@@ -64,19 +64,21 @@ namespace structures
 	}
 
 	template<typename K, typename T>
-	inline void SortedSequenceTable<K, T>::insert(const K & key, const T & data)
+	inline bool SortedSequenceTable<K, T>::insert(const K & key, const T & data)
 	{
 		bool found = false;
 		int index = indexOfKey(key, 0, static_cast<int>(size()), found);
 
 		if (found)
 		{
-			throw std::logic_error("Sorted_seq_tab: Key already in table!");
+			//throw std::logic_error("Sorted_seq_tab: Key already in table!");
+			return false;
 		}
 		else
 		{
 			TableItem<K, T>* item = new TableItem<K, T>(key, data);
 			list_->insert(item, index);
+			return true;
 		}
 	}
 

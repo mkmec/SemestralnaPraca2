@@ -1,16 +1,17 @@
 #pragma once
 #include <string>
+#include "Data.h"
 
 using namespace std;
 
-class DataObec
+class DataObec : public Data
 {
 private:
-	string nazov_, okres_, kraj_;
-	int pocetZapisanychVolicov_, pocetVydanychObalok_, pocetOdovzdanychObalok_;
-	double ucast_;
 public:
-	DataObec(string nazov, string okres, string kraj, int pocetZapisanychVolicov, int pocetVydanychObalok, double ucast, int pocetOdovzdanychObalok);
+	DataObec(string nazov, string okres, string kraj, int pocetZapisanychVolicov, int pocetVydanychObalok, double ucast, int pocetOdovzdanychObalok) :
+		Data::Data(nazov, okres, kraj, pocetZapisanychVolicov, pocetVydanychObalok, ucast, pocetOdovzdanychObalok){
+	};
+	
 	~DataObec();
 };
 
