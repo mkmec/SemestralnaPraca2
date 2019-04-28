@@ -1,10 +1,10 @@
 #pragma once
-#include "Filterfi.h"
+#include "Filter_FI.h"
 #include <string>
 #include "Data.h"
 
 template <typename T, typename O>
-class FilterNazov : public Filterfi<std::string, Data>
+class FilterVolici : public Filter_Fi<int, Data>
 {
 public:
 

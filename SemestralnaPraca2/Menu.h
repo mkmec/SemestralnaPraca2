@@ -6,7 +6,9 @@
 class Menu
 {
 private:
-	structures::SortedSequenceTable<std::string, DataObec*>* obecData;
+	structures::SortedSequenceTable<std::string, Data*>* obecData;
+	structures::SortedSequenceTable<std::string, Data*>* okresData;
+	structures::SortedSequenceTable<std::string, Data*>* krajData;
 
 	bool run_ = true;
 

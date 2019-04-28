@@ -228,6 +228,18 @@
     <ClInclude Include="KriteriumOdovzdaneObalky.h">
       <Filter>Header Files\Kriteria</Filter>
     </ClInclude>
+    <ClInclude Include="DataOkres.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DataKraj.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FilterVolici.h">
+      <Filter>Header Files\Filtre</Filter>
+    </ClInclude>
+    <ClInclude Include="FilterUcast.h">
+      <Filter>Header Files\Filtre</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -270,6 +282,12 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Data.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DataOkres.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DataKraj.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

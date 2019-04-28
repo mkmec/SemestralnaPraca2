@@ -6,7 +6,7 @@ template <typename T, typename O>
 class Filter
 {
 public:
-	virtual bool ohodnot(const O& object, const Kriterium<T, O>& krit) = 0;
+	virtual bool ohodnot (O& object, Kriterium<T, O>& krit) = 0;
 private:
 
 };

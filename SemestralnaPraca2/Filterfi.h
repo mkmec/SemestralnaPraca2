@@ -8,7 +8,7 @@ class Filterfi : public Filter<T, O>
 {
 public:
 	bool ohodnot(O& object, Kriterium<T, O>& kriterium) {
-		return kriterium.ohodnot(object);
+		return kriterium.ohodnot(object) == alpha_;
 	};
 	void setAlpha(T alpha) { alpha_ = alpha; };
 private:

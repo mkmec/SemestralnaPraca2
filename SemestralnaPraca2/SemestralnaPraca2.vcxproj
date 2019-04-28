@@ -20,10 +20,14 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Data.h" />
+    <ClInclude Include="DataKraj.h" />
     <ClInclude Include="DataObec.h" />
+    <ClInclude Include="DataOkres.h" />
     <ClInclude Include="Filter.h" />
     <ClInclude Include="Filterfi.h" />
     <ClInclude Include="FilterNazov.h" />
+    <ClInclude Include="FilterUcast.h" />
+    <ClInclude Include="FilterVolici.h" />
     <ClInclude Include="Filter_FI.h" />
     <ClInclude Include="Kriterium.h" />
     <ClInclude Include="KriteriumNazov.h" />
@@ -87,7 +91,9 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Data.cpp" />
+    <ClCompile Include="DataKraj.cpp" />
     <ClCompile Include="DataObec.cpp" />
+    <ClCompile Include="DataOkres.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Menu.cpp" />
     <ClCompile Include="structures\ds_routines.cpp" />
