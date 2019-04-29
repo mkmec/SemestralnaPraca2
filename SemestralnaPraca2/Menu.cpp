@@ -9,21 +9,193 @@
 #include "KriteriumVolici.h"
 #include "KriteriumVydaneObalky.h"
 #include "KriteriumOdovzdaneObalky.h"
+#include "KriteriumPrislusnostObce.h"
 #include "KriteriumUcast.h"
 #include "Kriterium.h"
 #include "FilterNazov.h"
 #include "FilterVolici.h"
 #include "FilterUcast.h"
+#include "FilterPrislusnostObce.h"
 #include "DataOkres.h"
 #include "DataKraj.h"
 #include <iomanip>
+#include "structures/table/sorting/heap_sort.h"
 
 
 using namespace std;
 using namespace structures;
 
+void Menu::zoradUzemneJednotky()
+{
+	int spodnaHranica, hornaHranica, kolo, zoradenie, kriterium;
+	string prislusnost;
+	//SortedSequenceTable<string, Data>* utriedeneObce = new SortedSequenceTable<string, Data>();
+
+	KriteriumPrislusnostObce<bool, Data>* kriteriumPrislusnostObce = new KriteriumPrislusnostObce<bool, Data>();
+	Kriterium<string, Data>* kriteriumNazov = new KriteriumNazov<string, Data>();
+	KriteriumUcast<double, Data>* kriteriumUcast = new KriteriumUcast<double, Data>();
+	
+
+	FilterPrislusnostObce<bool, Kriterium<bool, Data>>* filterPrislusnostObce = new FilterPrislusnostObce<bool, Kriterium<bool, Data>>;
+	FilterUcast<double, Kriterium<double, Data>>* filterUcast = new FilterUcast<double, Kriterium<double, Data>>;
+	filterPrislusnostObce->setAlpha(true);
+
+	cout << "\nZadajte spodnu hranicu ucasti:\n>>";
+	cin >> spodnaHranica;
+	cout << "\nZadajte hornu hranicu ucasti:\n>>";
+	cin >> hornaHranica;
+	cout << "\nZadajte kolo volieb:\n";
+	kolo = Menu::skontrolujIntVstup();
+	if (kolo != 1 && kolo != 2) kriteriumUcast->setKolo(1);
+	else kriteriumUcast->setKolo(kolo);
+
+	filterUcast->setAlpha(spodnaHranica);
+	filterUcast->setBeta(hornaHranica);
+
+	cout << "\nZadajte vyssiu uzemnu jednotku:\n>>";
+	cin >> prislusnost;
+
+	cout << "\nZoradit:\n"
+			"1. vzostupnu\n"
+			"2. zostupne\n";
+	zoradenie = Menu::skontrolujIntVstup();
+	if (zoradenie != 1 && zoradenie != 2) zoradenie = 1;
+	
+	cout << "Podla akeho kriteria si prajete vypisat obce:\n"
+		"1. Nazov\n"
+		"2. Volici\n"
+		"3. Ucast\n"
+		">>";
+	kriterium = Menu::skontrolujIntVstup();
+	if (kriterium != 1 && kriterium != 2 && kriterium != 3) kriterium = 1;
+
+	kriteriumPrislusnostObce->setPrislusnost(prislusnost);
+
+
+	switch (kriterium)
+	{
+	case 1:
+	{
+		UnsortedSequenceTable<string, string>* utriedeneObce = new UnsortedSequenceTable<string, string>();
+		for (auto item : *obecData)
+		{
+			if (filterUcast->ohodnot(*item->accessData(), *kriteriumUcast) && filterPrislusnostObce->ohodnot(*item->accessData(), *kriteriumPrislusnostObce))
+			{
+				utriedeneObce->insert(item->accessData()->getNazov(), item->accessData()->getNazov());
+			}
+		}
+
+		HeapSort<string, string>* heapsort = new HeapSort<string, string>();
+		heapsort->sort(*utriedeneObce);
+
+		if (zoradenie == 1)
+		{
+			for (auto item : *utriedeneObce)
+			{
+				cout << item->getKey() << endl;
+			}
+		}
+		else
+		{
+			for (int i = utriedeneObce->size() - 1; i >= 0; i--)
+			{
+				cout << utriedeneObce->getItemAtIndex(i).getKey() << endl;
+			}
+		}
+		 
+		delete utriedeneObce;
+		delete heapsort;
+		break;
+	}
+
+	case 2:
+	{
+		UnsortedSequenceTable<int, string>* utriedeneObce = new UnsortedSequenceTable<int, string>();
+		for (auto item : *obecData)
+		{
+			if (filterUcast->ohodnot(*item->accessData(), *kriteriumUcast) && filterPrislusnostObce->ohodnot(*item->accessData(), *kriteriumPrislusnostObce))
+			{
+				utriedeneObce->insert(kolo == 1? item->accessData()->getPocetZapisanychVolicov() : item->accessData()->getPocetZapisanychVolicov2(), item->accessData()->getNazov());
+			}
+		}
+
+		HeapSort<int, string>* heapsort = new HeapSort<int, string>();
+		heapsort->sort(*utriedeneObce);
+
+		cout << endl << left << setw(40) << "NAZOV OBCE" << left << "POCET VOLICOV\n";
+
+		if (zoradenie == 1)
+		{
+			for (auto item : *utriedeneObce)
+			{
+				cout << left << setw(40) << item->accessData() << left << item->getKey() << endl;				
+			}
+		}
+		else
+		{
+			for (int i = utriedeneObce->size() - 1; i >= 0; i--)
+			{
+				cout << left << setw(40) << utriedeneObce->getItemAtIndex(i).accessData() << left << utriedeneObce->getItemAtIndex(i).getKey() << endl;
+			}
+		}
+
+		delete utriedeneObce;
+		delete heapsort;
+		break;
+	}
+
+	case 3:
+	{
+		UnsortedSequenceTable<double, string>* utriedeneObce = new UnsortedSequenceTable<double, string>();
+		for (auto item : *obecData)
+		{
+			if (filterUcast->ohodnot(*item->accessData(), *kriteriumUcast) && filterPrislusnostObce->ohodnot(*item->accessData(), *kriteriumPrislusnostObce))
+			{
+				utriedeneObce->insert(kolo == 1 ? item->accessData()->getUcast() : item->accessData()->getUcast2(), item->accessData()->getNazov());
+			}
+		}
+
+		HeapSort<double, string>* heapsort = new HeapSort<double, string>();
+		heapsort->sort(*utriedeneObce);
+
+		cout << endl << left << setw(40) << "NAZOV OBCE" << left << "UCAST\n";
+
+		if (zoradenie == 1)
+		{
+			for (auto item : *utriedeneObce)
+			{
+				cout << left << setw(40) << item->accessData() << left << item->getKey() << endl;
+			}
+		}
+		else
+		{
+			for (int i = utriedeneObce->size() - 1; i >= 0; i--)
+			{
+				cout << left << setw(40) << utriedeneObce->getItemAtIndex(i).accessData() << left << utriedeneObce->getItemAtIndex(i).getKey() << endl;
+			}
+		}
+
+		delete utriedeneObce;
+		delete heapsort;
+		break;
+	}
+	
+	}
+
+
+
+	
+	
+	delete kriteriumPrislusnostObce;
+	delete kriteriumNazov;
+	delete kriteriumUcast;
+	delete filterPrislusnostObce;
+	delete filterUcast;
+	
+}
+
 void Menu::vypisInfoOUzemnychJednotkach()
-{	
+{
 	int volba;
 	Kriterium<string, Data>* kriteriumNazov = new KriteriumNazov<string, Data>();
 	KriteriumVolici<int, Data>* kriteriumVolici = new KriteriumVolici<int, Data>();
@@ -44,7 +216,7 @@ void Menu::vypisInfoOUzemnychJednotkach()
 	{
 	case 1:
 	{
-		string uzJednotka;		
+		string uzJednotka;
 		int obec, okres, kraj;
 		bool found = false;
 
@@ -72,7 +244,7 @@ void Menu::vypisInfoOUzemnychJednotkach()
 		}
 		else if (kraj != string::npos)
 		{
-			Data* uzemnaJednotka;			
+			Data* uzemnaJednotka;
 			found = krajData->tryFind(uzJednotka, uzemnaJednotka);
 			if (found) uzemnaJednotka->vypisInfo();
 		}
@@ -106,8 +278,8 @@ void Menu::vypisInfoOUzemnychJednotkach()
 			cout << kriteriumOdovzdaneObalky->ohodnot(*obec) << " v druhom kole." << endl;*/
 
 			//uzemnaJednotka->vypisInfo();
-			
-		} 
+
+		}
 		else
 		{
 			cout << "\nZadana uzemna jednotka sa nenasla.\n";
@@ -117,9 +289,9 @@ void Menu::vypisInfoOUzemnychJednotkach()
 	}
 
 	case 2:
-	{		
+	{
 		FilterVolici<int, Kriterium<int, Data>>* filterVolici = new FilterVolici<int, Kriterium<int, Data>>;
-		
+
 		int spodnaHranica, hornaHranica, kolo;
 
 		cout << "\nZadajte spodnu hranicu volicov:\n>>";
@@ -131,9 +303,9 @@ void Menu::vypisInfoOUzemnychJednotkach()
 
 		filterVolici->setAlpha(spodnaHranica);
 		filterVolici->setBeta(hornaHranica);
-		if (kolo != 1 && kolo != 2) kriteriumVolici->setKolo(1);	
+		if (kolo != 1 && kolo != 2) kriteriumVolici->setKolo(1);
 		else kriteriumVolici->setKolo(kolo);
-		
+
 		for (TableItem<string, Data*>* item : *obecData)
 		{
 			if (filterVolici->ohodnot(*item->accessData(), *kriteriumVolici)) item->accessData()->vypisInfo();
@@ -200,7 +372,7 @@ void Menu::vypisInfoOUzemnychJednotkach()
 	delete kriteriumVydaneObalky;
 	delete kriteriumUcast;
 	delete kriteriumOdovzdaneObalky;
-	
+
 }
 
 void Menu::vypisMenu()
@@ -210,14 +382,14 @@ void Menu::vypisMenu()
 	cout << "\nVyber moznost:\n"
 		"0. Ukonci aplikaciu\n"
 		"1. Vypisanie informaci o uzemnych jednotkach\n"
-		"2. Posun cas o hodinu\n"
-		"3. Pridaj nove vozidlo\n"
-		"4. Vypis zoznam vozidiel\n"
-		"5. Pridaj novy dron\n"
-		"6. Vypis vsetky drony v danom prekladisku\n"
-		"7. Vytvor objednavku\n"
-		"8. Vypis statistiky\n"
-		"15. Zapis do suboru\n"
+		"2. Zoradenie uzemnych jednotiek podla filtra\n"
+		"3. \n"
+		"4. \n"
+		"5. \n"
+		"6. \n"
+		"7. \n"
+		"8. \n"
+		"15. \n"
 		"10. Nacitaj data\n"
 		">>";
 }
@@ -326,7 +498,7 @@ void Menu::nacitajData()
 	while (getline(kraje, line))
 	{
 		stringstream pomStream(line);
-		
+
 		getline(pomStream, kraj, ';');
 		getline(pomStream, var1, ';');
 		getline(pomStream, var2, ';');
@@ -379,6 +551,12 @@ void Menu::vyber()
 			break;
 		}
 
+		case 2:
+		{
+			Menu::zoradUzemneJednotky();
+			break;
+		}
+
 		case 10:
 			Menu::nacitajData();
 			break;
@@ -412,7 +590,7 @@ Menu::~Menu()
 		delete item->accessData();
 	}
 	delete okresData;
-	
+
 	for (TableItem<string, Data*>* item : *krajData)
 	{
 		delete item->accessData();

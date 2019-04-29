@@ -240,6 +240,12 @@
     <ClInclude Include="FilterUcast.h">
       <Filter>Header Files\Filtre</Filter>
     </ClInclude>
+    <ClInclude Include="FilterPrislusnostObce.h">
+      <Filter>Header Files\Filtre</Filter>
+    </ClInclude>
+    <ClInclude Include="KriteriumPrislusnostObce.h">
+      <Filter>Header Files\Kriteria</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">

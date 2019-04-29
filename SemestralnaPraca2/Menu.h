@@ -12,6 +12,7 @@ private:
 
 	bool run_ = true;
 
+	void zoradUzemneJednotky();
 	void vypisInfoOUzemnychJednotkach();
 	void vypisMenu();
 	int skontrolujIntVstup();

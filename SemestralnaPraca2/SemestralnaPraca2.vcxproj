@@ -26,12 +26,14 @@
     <ClInclude Include="Filter.h" />
     <ClInclude Include="Filterfi.h" />
     <ClInclude Include="FilterNazov.h" />
+    <ClInclude Include="FilterPrislusnostObce.h" />
     <ClInclude Include="FilterUcast.h" />
     <ClInclude Include="FilterVolici.h" />
     <ClInclude Include="Filter_FI.h" />
     <ClInclude Include="Kriterium.h" />
     <ClInclude Include="KriteriumNazov.h" />
     <ClInclude Include="KriteriumOdovzdaneObalky.h" />
+    <ClInclude Include="KriteriumPrislusnostObce.h" />
     <ClInclude Include="KriteriumUcast.h" />
     <ClInclude Include="KriteriumVolici.h" />
     <ClInclude Include="KriteriumVydaneObalky.h" />

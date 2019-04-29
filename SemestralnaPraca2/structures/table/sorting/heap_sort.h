@@ -21,8 +21,52 @@ namespace structures
 	template<typename K, typename T>
 	inline void HeapSort<K, T>::sort(UnsortedSequenceTable<K, T>& table)
 	{
-		//TODO 12: HeapSort
-		throw std::exception("HeapSort<K, T>::sort: Not implemented yet.");
+		bool vymena;
+		int aktualny, otec, lavy, pravy, max;
+
+		for (int i = 1; i < table.size() - 1; i++)
+		{
+			aktualny = i;
+			do
+			{
+				vymena = false;
+				otec = (aktualny - 1) / 2;
+				if ((aktualny > 0) && (table.getItemAtIndex(aktualny).getKey() > table.getItemAtIndex(otec).getKey()))
+				{
+					table.swap(table.getItemAtIndex(aktualny), table.getItemAtIndex(otec));					
+					aktualny = otec;
+					vymena = true;
+				}
+			} while (vymena);
+		}
+
+		for (int i = table.size() - 1; i >= 1; i--)
+		{
+			table.swap(table.getItemAtIndex(0), table.getItemAtIndex(i));			
+			aktualny = 0;
+
+			do
+			{
+				vymena = false;
+				lavy = aktualny * 2 + 1;
+				pravy = aktualny * 2 + 2;
+				if ((lavy < i) && (pravy < i))
+				{
+					max = table.getItemAtIndex(lavy).getKey() > table.getItemAtIndex(pravy).getKey() ? lavy : pravy;
+				}
+				else
+				{
+					max = lavy < i ? lavy : pravy;
+				}
+
+				if ((max < i) && (table.getItemAtIndex(max).getKey() > table.getItemAtIndex(aktualny).getKey()))
+				{
+					table.swap(table.getItemAtIndex(max), table.getItemAtIndex(aktualny));					
+					aktualny = max;
+					vymena = true;
+				}
+			} while (vymena);
+		}
 	}
 
 }
