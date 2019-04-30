@@ -108,7 +108,7 @@ namespace structures
 	};
 
 	template<typename K, typename T>
-	inline TreapItem<K, T>::TreapItem(K key, T data, int priority):
+	inline TreapItem<K, T>::TreapItem(K key, T data, int priority) :
 		TableItem<K, T>(key, data),
 		priority_(priority)
 	{
@@ -143,7 +143,8 @@ namespace structures
 	template<typename K, typename T>
 	inline Treap<K, T>::~Treap()
 	{
-		//TODO 10: Treap
+		delete generator_;
+		generator_ = nullptr;
 	}
 
 	template<typename K, typename T>
@@ -161,49 +162,205 @@ namespace structures
 	template<typename K, typename T>
 	inline Treap<K, T>& Treap<K, T>::operator=(const Treap<K, T>& other)
 	{
-		//TODO 10: Treap
-		throw std::exception("Treap<K, T>::operator=: Not implemented yet.");
+		if (this != &other)
+		{
+			BinarySearchTree<K, T>::operator=(other);
+			*generator_ = *other.generator_;
+		}
+		return *this;
 	}
 
 	template<typename K, typename T>
 	inline bool Treap<K, T>::insert(const K & key, const T & data)
 	{
-		//TODO 10: Treap
-		throw std::exception("Treap<K, T>::insert: Not implemented yet.");
+		TreapItem<K, T>* treapItem = new TreapItem<K, T>(key, data, (*generator_)());
+		typename BinarySearchTree<K, T>::BSTTreeNode* treeNode = new BSTTreeNode(treapItem);
+
+		if (tryToInsertNode(treeNode))
+		{
+			int parentPriority = extractPriority(treeNode->getParent());
+
+			while (parentPriority != INT_MIN && parentPriority > treapItem->getPriority())
+			{
+				bool resetRoot = treeNode->getParent()->isRoot();
+
+				if (treeNode->isLeftSon())
+				{
+					rotateRightOverParent(treeNode);
+				}
+				else
+				{
+					rotateLeftOverParent(treeNode);
+				}
+
+				if (resetRoot)
+				{
+					binaryTree_->replaceRoot(treeNode);
+				}
+
+				parentPriority = extractPriority(treeNode->getParent());
+			}
+			return true;
+		}
+		else
+		{
+			delete treapItem;
+			delete treeNode;
+
+			return false;
+			//throw std::logic_error("Key already present in the table!");
+		}
 	}
 
 	template<typename K, typename T>
 	inline T Treap<K, T>::remove(const K & key)
 	{
-		//TODO 10: Treap
-		throw std::exception("Treap<K, T>::remove: Not implemented yet.");
+		bool found = false;
+
+		typename BinarySearchTree<K, T>::BSTTreeNode* nodeToRemove = findBSTNode(key, found);
+
+		if (found)
+		{
+			TreapItem<K, T>* treapItem = dynamic_cast<TreapItem<K, T>*>(nodeToRemove->accessData());
+			treapItem->minimizePriority();
+
+			int leftSonPriority = extractPriority(nodeToRemove->getLeftSon());
+			int rightSonPriority = extractPriority(nodeToRemove->getRightSon());
+
+			while (leftSonPriority != INT_MIN || rightSonPriority != INT_MIN)
+			{
+				BinarySearchTree<K, T>::BSTTreeNode* rotateSon = nullptr;
+
+				if (leftSonPriority != INT_MIN && rightSonPriority != INT_MIN)
+				{
+					rotateSon = leftSonPriority < rightSonPriority ? nodeToRemove->getLeftSon() : nodeToRemove->getRightSon();
+				}
+				else
+				{
+					rotateSon = leftSonPriority != INT_MIN ? nodeToRemove->getLeftSon() : nodeToRemove->getRightSon();
+				}
+
+				bool resetRoot = nodeToRemove->isRoot();
+
+				if (rotateSon->isLeftSon())
+				{
+					rotateRightOverParent(rotateSon);
+				}
+				else
+				{
+					rotateLeftOverParent(rotateSon);
+				}
+
+				if (resetRoot)
+				{
+					binaryTree_->replaceRoot(rotateSon);
+				}
+
+				leftSonPriority = extractPriority(nodeToRemove->getLeftSon());
+				rightSonPriority = extractPriority(nodeToRemove->getRightSon());
+			}
+
+			extractNode(nodeToRemove);
+
+			T result = nodeToRemove->accessData()->accessData();
+			delete nodeToRemove->accessData();
+			delete nodeToRemove;
+			size_--;
+			return result;
+		}
+		else
+		{
+			throw std::logic_error("Key not found!");
+		}
 	}
 
 	template<typename K, typename T>
 	inline bool Treap<K, T>::isHeapOK(BinarySearchTree<K, T>::BSTTreeNode* node)
 	{
-		//TODO 10: Treap
-		throw std::exception("Treap<K, T>::isHeapOK: Not implemented yet.");
+		if (node != nullptr)
+		{
+			int priority = extractPriority(node);
+			int priorityParent = extractPriority(node->getParent());
+			int priorityLeftSon = extractPriority(node->getLeftSon());
+			int priorityRightSon = extractPriority(node->getRightSon());
+
+			return (priorityParent == -1 || priorityParent <= priority) &&
+				(priorityLeftSon == -1 || priorityLeftSon >= priority) &&
+				(priorityRightSon == -1 || priorityRightSon >= priority);
+		}
+		else
+		{
+			return true;
+		}
 	}
 
 	template<typename K, typename T>
 	inline int Treap<K, T>::extractPriority(BinarySearchTree<K, T>::BSTTreeNode * node)
 	{
-		//TODO 10: Treap
-		throw std::exception("Treap<K, T>::extractPriority: Not implemented yet.");
+		return node != nullptr ?
+			dynamic_cast<TreapItem<K, T>*>(node->accessData())->getPriority() :
+			INT_MIN;
 	}
 
 	template<typename K, typename T>
 	inline void Treap<K, T>::rotateLeftOverParent(BinarySearchTree<K, T>::BSTTreeNode * node)
 	{
-		//TODO 10: Treap
-		throw std::exception("Treap<K, T>::rotateLeftOverParent: Not implemented yet.");
+		if (node->isRightSon())
+		{
+			typename BinarySearchTree<K, T>::BSTTreeNode* leftSon = node->changeLeftSon(nullptr);
+			typename BinarySearchTree<K, T>::BSTTreeNode* parent = node->getParent();
+			typename BinarySearchTree<K, T>::BSTTreeNode* grandParent = parent->getParent();
+
+			parent->setRightSon(nullptr); // zrusi vazbu medzi vrcholom node a otcom
+
+			if (grandParent != nullptr)
+			{
+				// node a stary otec budu spravne spojeny, otcov parent bude null
+				if (parent->isLeftSon())
+				{
+					grandParent->setLeftSon(node);
+				}
+				else
+				{
+					grandParent->setRightSon(node);
+				}
+			}
+
+			// otec ide dolava 
+			node->setLeftSon(parent);
+			// lavy podstrom vrcholu node bude pravym podstromom otca
+			parent->setRightSon(leftSon);
+		}
 	}
 
 	template<typename K, typename T>
 	inline void Treap<K, T>::rotateRightOverParent(BinarySearchTree<K, T>::BSTTreeNode * node)
 	{
-		//TODO 10: Treap
-		throw std::exception("Treap<K, T>::rotateRightOverParent: Not implemented yet.");
+		if (node->isLeftSon())
+		{
+			typename BinarySearchTree<K, T>::BSTTreeNode* rightSon = node->changeRightSon(nullptr);
+			typename BinarySearchTree<K, T>::BSTTreeNode* parent = node->getParent();
+			typename BinarySearchTree<K, T>::BSTTreeNode* grandParent = parent->getParent();
+
+			parent->setLeftSon(nullptr); // zrusi vazbu medzi vrcholom node a otcom
+
+			if (grandParent != nullptr)
+			{
+				// node a stary otec budu spravne spojeny, otcov parent bude null
+				if (parent->isLeftSon())
+				{
+					grandParent->setLeftSon(node);
+				}
+				else
+				{
+					grandParent->setRightSon(node);
+				}
+			}
+
+			// otec ide doprava
+			node->setRightSon(parent);
+			// pravy podstrom vrcholu node bude lavym podstromom otca
+			parent->setLeftSon(rightSon);
+		}
 	}
 }

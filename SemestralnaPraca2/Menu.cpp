@@ -27,7 +27,7 @@ using namespace structures;
 
 void Menu::zoradUzemneJednotky()
 {
-	int spodnaHranica, hornaHranica, kolo, zoradenie, kriterium;
+	int spodnaHranica, hornaHranica, kolo, zoradenie, kriterium, volba;
 	string prislusnost;
 	//SortedSequenceTable<string, Data>* utriedeneObce = new SortedSequenceTable<string, Data>();
 
@@ -40,20 +40,30 @@ void Menu::zoradUzemneJednotky()
 	FilterUcast<double, Kriterium<double, Data>>* filterUcast = new FilterUcast<double, Kriterium<double, Data>>;
 	filterPrislusnostObce->setAlpha(true);
 
-	cout << "\nZadajte spodnu hranicu ucasti:\n>>";
-	cin >> spodnaHranica;
-	cout << "\nZadajte hornu hranicu ucasti:\n>>";
-	cin >> hornaHranica;
-	cout << "\nZadajte kolo volieb:\n";
-	kolo = Menu::skontrolujIntVstup();
-	if (kolo != 1 && kolo != 2) kriteriumUcast->setKolo(1);
-	else kriteriumUcast->setKolo(kolo);
+	cout << "\nPrajete si vypisat:\n"
+		"1. Vsetky obce\n"
+		"2. Obce podla filtra\n";
+	volba = Menu::skontrolujIntVstup();
+	if (volba != 1 && volba != 2) volba = 1;
 
-	filterUcast->setAlpha(spodnaHranica);
-	filterUcast->setBeta(hornaHranica);
+	if (volba == 2)
+	{
+		cout << "\nZadajte spodnu hranicu ucasti:\n>>";
+		cin >> spodnaHranica;
+		cout << "\nZadajte hornu hranicu ucasti:\n>>";
+		cin >> hornaHranica;
+		cout << "\nZadajte kolo volieb:\n";
+		kolo = Menu::skontrolujIntVstup();
+		if (kolo != 1 && kolo != 2) kriteriumUcast->setKolo(1);
+		else kriteriumUcast->setKolo(kolo);
 
-	cout << "\nZadajte vyssiu uzemnu jednotku:\n>>";
-	cin >> prislusnost;
+		filterUcast->setAlpha(spodnaHranica);
+		filterUcast->setBeta(hornaHranica);
+
+		cout << "\nZadajte vyssiu uzemnu jednotku:\n>>";
+		getline(cin, prislusnost);
+		//cin >> prislusnost;
+	}
 
 	cout << "\nZoradit:\n"
 			"1. vzostupnu\n"
@@ -79,32 +89,43 @@ void Menu::zoradUzemneJednotky()
 		UnsortedSequenceTable<string, string>* utriedeneObce = new UnsortedSequenceTable<string, string>();
 		for (auto item : *obecData)
 		{
-			if (filterUcast->ohodnot(*item->accessData(), *kriteriumUcast) && filterPrislusnostObce->ohodnot(*item->accessData(), *kriteriumPrislusnostObce))
+			if (volba == 1) utriedeneObce->insert(item->accessData()->getNazov(), item->accessData()->getNazov());
+			else
 			{
-				utriedeneObce->insert(item->accessData()->getNazov(), item->accessData()->getNazov());
+				if (filterUcast->ohodnot(*item->accessData(), *kriteriumUcast) && filterPrislusnostObce->ohodnot(*item->accessData(), *kriteriumPrislusnostObce))
+				{
+					utriedeneObce->insert(item->accessData()->getNazov(), item->accessData()->getNazov());
+				}
 			}
 		}
 
-		HeapSort<string, string>* heapsort = new HeapSort<string, string>();
-		heapsort->sort(*utriedeneObce);
-
-		if (zoradenie == 1)
+		if (!utriedeneObce->isEmpty())
 		{
-			for (auto item : *utriedeneObce)
+			HeapSort<string, string>* heapsort = new HeapSort<string, string>();
+			heapsort->sort(*utriedeneObce);
+
+			if (zoradenie == 1)
 			{
-				cout << item->getKey() << endl;
+				for (auto item : *utriedeneObce)
+				{
+					cout << item->getKey() << endl;
+				}
 			}
+			else
+			{
+				for (int i = utriedeneObce->size() - 1; i >= 0; i--)
+				{
+					cout << utriedeneObce->getItemAtIndex(i).getKey() << endl;
+				}
+			}
+			delete heapsort;
 		}
 		else
 		{
-			for (int i = utriedeneObce->size() - 1; i >= 0; i--)
-			{
-				cout << utriedeneObce->getItemAtIndex(i).getKey() << endl;
-			}
+			cout << "\nZadanym filtrom sa nenasla ziadna zhoda\n";
 		}
 		 
 		delete utriedeneObce;
-		delete heapsort;
 		break;
 	}
 
@@ -113,34 +134,45 @@ void Menu::zoradUzemneJednotky()
 		UnsortedSequenceTable<int, string>* utriedeneObce = new UnsortedSequenceTable<int, string>();
 		for (auto item : *obecData)
 		{
-			if (filterUcast->ohodnot(*item->accessData(), *kriteriumUcast) && filterPrislusnostObce->ohodnot(*item->accessData(), *kriteriumPrislusnostObce))
+			if (volba == 1) utriedeneObce->insert(kolo == 1 ? item->accessData()->getPocetZapisanychVolicov() : item->accessData()->getPocetZapisanychVolicov2(), item->accessData()->getNazov());
+			else
 			{
-				utriedeneObce->insert(kolo == 1? item->accessData()->getPocetZapisanychVolicov() : item->accessData()->getPocetZapisanychVolicov2(), item->accessData()->getNazov());
+				if (filterUcast->ohodnot(*item->accessData(), *kriteriumUcast) && filterPrislusnostObce->ohodnot(*item->accessData(), *kriteriumPrislusnostObce))
+				{
+					utriedeneObce->insert(kolo == 1? item->accessData()->getPocetZapisanychVolicov() : item->accessData()->getPocetZapisanychVolicov2(), item->accessData()->getNazov());
+				}
 			}
 		}
 
-		HeapSort<int, string>* heapsort = new HeapSort<int, string>();
-		heapsort->sort(*utriedeneObce);
-
-		cout << endl << left << setw(40) << "NAZOV OBCE" << left << "POCET VOLICOV\n";
-
-		if (zoradenie == 1)
+		if (!utriedeneObce->isEmpty())
 		{
-			for (auto item : *utriedeneObce)
+			HeapSort<int, string>* heapsort = new HeapSort<int, string>();
+			heapsort->sort(*utriedeneObce);
+
+			cout << endl << left << setw(40) << "NAZOV OBCE" << left << "POCET VOLICOV\n";
+
+			if (zoradenie == 1)
 			{
-				cout << left << setw(40) << item->accessData() << left << item->getKey() << endl;				
+				for (auto item : *utriedeneObce)
+				{
+					cout << left << setw(40) << item->accessData() << left << item->getKey() << endl;
+				}
 			}
+			else
+			{
+				for (int i = utriedeneObce->size() - 1; i >= 0; i--)
+				{
+					cout << left << setw(40) << utriedeneObce->getItemAtIndex(i).accessData() << left << utriedeneObce->getItemAtIndex(i).getKey() << endl;
+				}
+			}
+			delete heapsort;
 		}
 		else
 		{
-			for (int i = utriedeneObce->size() - 1; i >= 0; i--)
-			{
-				cout << left << setw(40) << utriedeneObce->getItemAtIndex(i).accessData() << left << utriedeneObce->getItemAtIndex(i).getKey() << endl;
-			}
+			cout << "\nZadanym filtrom sa nenasla ziadna zhoda\n";
 		}
 
 		delete utriedeneObce;
-		delete heapsort;
 		break;
 	}
 
@@ -149,34 +181,45 @@ void Menu::zoradUzemneJednotky()
 		UnsortedSequenceTable<double, string>* utriedeneObce = new UnsortedSequenceTable<double, string>();
 		for (auto item : *obecData)
 		{
-			if (filterUcast->ohodnot(*item->accessData(), *kriteriumUcast) && filterPrislusnostObce->ohodnot(*item->accessData(), *kriteriumPrislusnostObce))
+			if (volba == 1) utriedeneObce->insert(kolo == 1 ? item->accessData()->getUcast() : item->accessData()->getUcast2(), item->accessData()->getNazov());
+			else
 			{
-				utriedeneObce->insert(kolo == 1 ? item->accessData()->getUcast() : item->accessData()->getUcast2(), item->accessData()->getNazov());
+				if (filterUcast->ohodnot(*item->accessData(), *kriteriumUcast) && filterPrislusnostObce->ohodnot(*item->accessData(), *kriteriumPrislusnostObce))
+				{
+					utriedeneObce->insert(kolo == 1 ? item->accessData()->getUcast() : item->accessData()->getUcast2(), item->accessData()->getNazov());
+				}
 			}
 		}
 
-		HeapSort<double, string>* heapsort = new HeapSort<double, string>();
-		heapsort->sort(*utriedeneObce);
-
-		cout << endl << left << setw(40) << "NAZOV OBCE" << left << "UCAST\n";
-
-		if (zoradenie == 1)
+		if (!utriedeneObce->isEmpty())
 		{
-			for (auto item : *utriedeneObce)
+			HeapSort<double, string>* heapsort = new HeapSort<double, string>();
+			heapsort->sort(*utriedeneObce);
+
+			cout << endl << left << setw(40) << "NAZOV OBCE" << left << "UCAST\n";
+
+			if (zoradenie == 1)
 			{
-				cout << left << setw(40) << item->accessData() << left << item->getKey() << endl;
+				for (auto item : *utriedeneObce)
+				{
+					cout << left << setw(40) << item->accessData() << left << item->getKey() << endl;
+				}
 			}
+			else
+			{
+				for (int i = utriedeneObce->size() - 1; i >= 0; i--)
+				{
+					cout << left << setw(40) << utriedeneObce->getItemAtIndex(i).accessData() << left << utriedeneObce->getItemAtIndex(i).getKey() << endl;
+				}
+			}
+			delete heapsort;
 		}
 		else
 		{
-			for (int i = utriedeneObce->size() - 1; i >= 0; i--)
-			{
-				cout << left << setw(40) << utriedeneObce->getItemAtIndex(i).accessData() << left << utriedeneObce->getItemAtIndex(i).getKey() << endl;
-			}
+			cout << "\nZadanym filtrom sa nenasla ziadna zhoda\n";
 		}
 
 		delete utriedeneObce;
-		delete heapsort;
 		break;
 	}
 	
@@ -572,7 +615,8 @@ void Menu::vyber()
 Menu::Menu() :
 	obecData(new SortedSequenceTable<string, Data*>()),
 	okresData(new SortedSequenceTable<string, Data*>()),
-	krajData(new SortedSequenceTable<string, Data*>())
+	krajData(new SortedSequenceTable<string, Data*>()),
+	obecDataVolici(new Treap<double, Data*>())
 {
 }
 
@@ -596,4 +640,10 @@ Menu::~Menu()
 		delete item->accessData();
 	}
 	delete krajData;
+
+	for (auto item : *obecDataVolici)
+	{
+		delete item;
+	}
+	delete obecDataVolici;
 }

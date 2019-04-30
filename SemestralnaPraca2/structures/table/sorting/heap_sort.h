@@ -2,6 +2,9 @@
 
 #include "sort.h"
 #include "../unsorted_sequence_table.h"
+#include "../../../KriteriumVolici.h"
+#include <string>
+#include "../../../Data.h"
 
 namespace structures
 {
@@ -9,13 +12,16 @@ namespace structures
 	/// <summary> Triedenie Heap sort. </summary>
 	/// <typeparam name = "K"> Kluc prvkov v tabulke. </typepram>
 	/// <typeparam name = "T"> Typ dat ukladanych v tabulke. </typepram>
-	template <typename K, typename T>
-	class HeapSort : public Sort<K, T>
+	template <typename K, typename T>//, typename S, typename O>
+	class HeapSort : public Sort<K, T>		
 	{
 	public:
 		/// <summary> Utriedi tabulku triedenim Heap sort. </summary>
 		/// <param name = "table"> NonortedSequenceTable, ktoru ma utriedit. </param>
 		void sort(UnsortedSequenceTable<K, T>& table) override;
+		void sortKriterium(UnsortedSequenceTable<K, T>& table, std::string, int kolo);
+
+		
 	};
 
 	template<typename K, typename T>
@@ -24,7 +30,7 @@ namespace structures
 		bool vymena;
 		int aktualny, otec, lavy, pravy, max;
 
-		for (int i = 1; i < table.size() - 1; i++)
+		for (int i = 1; i <= table.size() - 1; i++)
 		{
 			aktualny = i;
 			do
@@ -40,7 +46,7 @@ namespace structures
 			} while (vymena);
 		}
 
-		for (int i = table.size() - 1; i >= 1; i--)
+		for (int i = table.size() - 1; i >= 0; i--)
 		{
 			table.swap(table.getItemAtIndex(0), table.getItemAtIndex(i));			
 			aktualny = 0;
@@ -66,6 +72,70 @@ namespace structures
 					vymena = true;
 				}
 			} while (vymena);
+		}
+	}
+
+	template<typename K, typename T>
+	inline void HeapSort<K, T>::sortKriterium(UnsortedSequenceTable<K, T>& table, std::string krit, int kolo)
+	{
+		
+		KriteriumVolici<int, Data>* kriterium = new KriteriumVolici<int, Data>();
+		kriterium->setKolo(kolo);
+	/*	delete kriterium;
+		if (krit == "volici")
+		{
+			KriteriumVolici<int, Data>* kriterium = new KriteriumVolici<int, Data>();
+			kriterium->setKolo(kolo);
+		}*/
+
+		if (kriterium != nullptr)
+		{
+			bool vymena;
+			int aktualny, otec, lavy, pravy, max;
+
+			for (int i = 1; i <= table.size() - 1; i++)
+			{
+				aktualny = i;
+				do
+				{
+					vymena = false;
+					otec = (aktualny - 1) / 2;
+					if ((aktualny > 0) && (kriterium->ohodnot(*table.getItemAtIndex(aktualny).accessData()) > kriterium->ohodnot(*table.getItemAtIndex(otec).accessData())))
+					{
+						table.swap(table.getItemAtIndex(aktualny), table.getItemAtIndex(otec));
+						aktualny = otec;
+						vymena = true;
+					}
+				} while (vymena);
+			}
+
+			for (int i = table.size() - 1; i >= 0; i--)
+			{
+				table.swap(table.getItemAtIndex(0), table.getItemAtIndex(i));
+				aktualny = 0;
+
+				do
+				{
+					vymena = false;
+					lavy = aktualny * 2 + 1;
+					pravy = aktualny * 2 + 2;
+					if ((lavy < i) && (pravy < i))
+					{
+						max = kriterium->ohodnot(*table.getItemAtIndex(lavy).accessData()) > kriterium->ohodnot(*table.getItemAtIndex(pravy).accessData()) ? lavy : pravy;
+					}
+					else
+					{
+						max = lavy < i ? lavy : pravy;
+					}
+
+					if ((max < i) && (kriterium->ohodnot(*table.getItemAtIndex(max).accessData()) > kriterium->ohodnot(*table.getItemAtIndex(aktualny).accessData())))
+					{
+						table.swap(table.getItemAtIndex(max), table.getItemAtIndex(aktualny));
+						aktualny = max;
+						vymena = true;
+					}
+				} while (vymena);
+			}
 		}
 	}
 

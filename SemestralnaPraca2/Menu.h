@@ -1,6 +1,7 @@
 #pragma once
 #include "structures/table/unsorted_sequence_table.h"
 #include "structures/table/sorted_sequence_table.h"
+#include "structures/table/treap.h"
 #include "DataObec.h"
 
 class Menu
@@ -9,6 +10,7 @@ private:
 	structures::SortedSequenceTable<std::string, Data*>* obecData;
 	structures::SortedSequenceTable<std::string, Data*>* okresData;
 	structures::SortedSequenceTable<std::string, Data*>* krajData;
+	structures::Treap<double, Data*>* obecDataVolici;
 
 	bool run_ = true;
 
