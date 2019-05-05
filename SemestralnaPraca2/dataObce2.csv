@@ -97,8 +97,8 @@ Bodiky;Dunajska Streda;Trnavsky kraj;286;135;47.20;135;135;311;177;56.91;177;177
 Bohelov;Dunajska Streda;Trnavsky kraj;296;102;34.45;102;101;294;84;28.57;84;83
 Cakany;Dunajska Streda;Trnavsky kraj;504;269;53.37;269;267;505;235;46.53;235;234
 Cenkovce;Dunajska Streda;Trnavsky kraj;902;367;40.68;367;367;808;345;42.69;345;345
-Cilizska Radvan;Dunajska Streda;Trnavsky kraj;986;184;18.66;184;182;987;168;17.02;168;166
-Dobrohosù;Dunajska Streda;Trnavsky kraj;433;216;49.88;216;215;441;204;46.25;204;202
+Cilizska Radvan;Dunajska Streda;Trnavsky kraj;986;184;18.66;184;182;987;168;17.2;168;166
+Dobrohost;Dunajska Streda;Trnavsky kraj;433;216;49.88;216;215;441;204;46.25;204;202
 Dolny Bar;Dunajska Streda;Trnavsky kraj;597;198;33.16;197;196;598;163;27.25;163;162
 Dolny Stal;Dunajska Streda;Trnavsky kraj;1624;409;25.18;409;406;1632;352;21.56;352;343
 Dunajska Streda;Dunajska Streda;Trnavsky kraj;19293;6041;31.31;6034;5991;19279;5827;30.22;5825;5762
@@ -141,7 +141,7 @@ Rohovce;Dunajska Streda;Trnavsky kraj;922;400;43.38;399;394;918;329;35.83;329;32
 Sap;Dunajska Streda;Trnavsky kraj;441;121;27.43;121;119;441;112;25.39;112;109
 Samorin;Dunajska Streda;Trnavsky kraj;10981;5058;46.06;5058;5027;10873;4526;41.62;4524;4463
 Stvrtok na Ostrove;Dunajska Streda;Trnavsky kraj;1437;631;43.91;631;626;1439;538;37.38;538;529
-Topolniky;Dunajska Streda;Trnavsky kraj;2578;721;27.96;721;713;2576;569;22.08;569;566
+Topolniky;Dunajska Streda;Trnavsky kraj;2578;721;27.96;721;713;2576;569;22.8;569;566
 Trhova Hradska;Dunajska Streda;Trnavsky kraj;1860;505;27.15;505;501;1863;386;20.71;385;380
 Trnavka;Dunajska Streda;Trnavsky kraj;418;196;46.88;196;196;420;154;36.66;154;154
 Trstena na Ostrove;Dunajska Streda;Trnavsky kraj;498;176;35.34;176;170;503;170;33.79;170;168
@@ -158,7 +158,7 @@ Abraham;Galanta;Trnavsky kraj;905;527;58.23;527;527;911;476;52.25;476;463
 Cierna Voda;Galanta;Trnavsky kraj;1147;564;49.17;564;555;1151;324;28.14;324;316
 Cierny Brod;Galanta;Trnavsky kraj;1372;430;31.34;430;426;1372;374;27.25;374;369
 Dolna Streda;Galanta;Trnavsky kraj;1289;731;56.71;731;721;1287;573;44.52;573;564
-Dolne Saliby;Galanta;Trnavsky kraj;1721;570;33.12;564;555;1725;484;28.05;484;482
+Dolne Saliby;Galanta;Trnavsky kraj;1721;570;33.12;564;555;1725;484;28.5;484;482
 Dolny Chotar;Galanta;Trnavsky kraj;300;74;24.66;74;73;301;60;19.93;60;59
 Galanta;Galanta;Trnavsky kraj;12474;5936;47.58;5928;5902;12435;5244;42.17;5243;5142
 Gan;Galanta;Trnavsky kraj;684;368;53.80;368;367;680;331;48.67;331;327
@@ -205,7 +205,7 @@ Moravany nad Vahom;Piesùany;Trnavsky kraj;1915;1055;55.09;1055;1044;1922;857;44.
 Nizna;Piesùany;Trnavsky kraj;463;255;55.07;255;255;458;207;45.19;206;206
 Ostrov;Piesùany;Trnavsky kraj;1015;556;54.77;556;552;1017;487;47.88;487;484
 Pecenady;Piesùany;Trnavsky kraj;463;243;52.48;243;243;465;184;39.56;184;177
-Piesùany;Piesùany;Trnavsky kraj;23983;13007;54.23;13001;12941;23855;11770;49.33;11770;11553
+Piestany;Piesùany;Trnavsky kraj;23983;13007;54.23;13001;12941;23855;11770;49.33;11770;11553
 Prasnik;Piesùany;Trnavsky kraj;686;354;51.60;354;353;701;340;48.50;340;336
 Rakovice;Piesùany;Trnavsky kraj;482;279;57.88;278;276;477;211;44.23;211;203
 Ratnovce;Piesùany;Trnavsky kraj;844;413;48.93;413;412;844;330;39.09;330;328
@@ -353,7 +353,7 @@ Chuda Lehota;Banovce nad Bebravou;Trenciansky kraj;183;116;63.38;116;116;184;102
 Krasna Ves;Banovce nad Bebravou;Trenciansky kraj;427;232;54.33;232;231;423;198;46.80;198;193
 Ksinna;Banovce nad Bebravou;Trenciansky kraj;415;220;53.01;220;219;432;191;44.21;191;184
 Libichava;Banovce nad Bebravou;Trenciansky kraj;120;65;54.16;65;65;115;51;44.34;51;49
-ºutov;Banovce nad Bebravou;Trenciansky kraj;136;87;63.97;87;87;137;63;45.98;63;63
+Lutov;Banovce nad Bebravou;Trenciansky kraj;136;87;63.97;87;87;137;63;45.98;63;63
 Mala Hradna;Banovce nad Bebravou;Trenciansky kraj;322;210;65.21;210;210;320;183;57.18;183;180
 Male Hoste;Banovce nad Bebravou;Trenciansky kraj;343;175;51.02;175;174;333;130;39.03;130;127
 Miezgovce;Banovce nad Bebravou;Trenciansky kraj;229;153;66.81;153;153;235;130;55.31;130;127
@@ -497,7 +497,7 @@ Nadlice;Partizanske;Trenciansky kraj;503;259;51.49;259;257;504;205;40.67;205;204
 Nedanovce;Partizanske;Trenciansky kraj;506;308;60.86;308;307;502;243;48.40;242;238
 Ostratice;Partizanske;Trenciansky kraj;663;316;47.66;316;315;664;264;39.75;264;264
 Partizanske;Partizanske;Trenciansky kraj;18533;9099;49.09;9096;9053;18486;7713;41.72;7713;7559
-Paziù;Partizanske;Trenciansky kraj;393;216;54.96;216;215;396;192;48.48;192;186
+Pazit;Partizanske;Trenciansky kraj;393;216;54.96;216;215;396;192;48.48;192;186
 Skacany;Partizanske;Trenciansky kraj;1088;566;52.02;566;563;1085;443;40.82;443;423
 Turcianky;Partizanske;Trenciansky kraj;127;75;59.05;75;74;127;58;45.66;58;56
 Velke Krstenany;Partizanske;Trenciansky kraj;485;226;46.59;226;224;488;194;39.75;194;189
@@ -527,7 +527,7 @@ Kostolna Ves;Prievidza;Trenciansky kraj;409;224;54.76;224;224;406;175;43.10;175;
 Kos;Prievidza;Trenciansky kraj;847;496;58.55;496;493;848;376;44.33;376;373
 Lazany;Prievidza;Trenciansky kraj;1407;811;57.64;811;799;1398;700;50.07;700;676
 Lehota pod Vtacnikom;Prievidza;Trenciansky kraj;3194;1962;61.42;1962;1948;3189;1631;51.14;1631;1592
-Liesùany;Prievidza;Trenciansky kraj;984;560;56.91;560;557;998;431;43.18;431;419
+Liestany;Prievidza;Trenciansky kraj;984;560;56.91;560;557;998;431;43.18;431;419
 Lipnik;Prievidza;Trenciansky kraj;449;269;59.91;269;268;451;228;50.55;228;225
 Mala Causa;Prievidza;Trenciansky kraj;579;326;56.30;326;326;579;267;46.11;267;262
 Malinova;Prievidza;Trenciansky kraj;787;438;55.65;438;435;783;354;45.21;354;350
@@ -646,11 +646,11 @@ Patince;Komarno;Nitriansky kraj;446;161;36.09;161;159;460;142;30.86;142;136
 Pribeta;Komarno;Nitriansky kraj;2385;675;28.30;675;665;2386;576;24.14;576;563
 Radvan nad Dunajom;Komarno;Nitriansky kraj;587;156;26.57;156;152;591;121;20.47;121;119
 Sokolce;Komarno;Nitriansky kraj;1007;240;23.83;240;238;1020;197;19.31;197;196
-Svaty Peter;Komarno;Nitriansky kraj;2263;715;31.59;715;710;2276;592;26.01;592;585
+Svaty Peter;Komarno;Nitriansky kraj;2263;715;31.59;715;710;2276;592;26.1;592;585
 Srobarova;Komarno;Nitriansky kraj;421;200;47.50;200;199;418;206;49.28;206;203
-Ton;Komarno;Nitriansky kraj;642;180;28.03;180;177;635;148;23.30;148;146
-Travnik;Komarno;Nitriansky kraj;573;148;25.82;148;148;572;109;19.05;109;106
-Velke Kosihy;Komarno;Nitriansky kraj;817;247;30.23;247;245;808;170;21.03;170;166
+Ton;Komarno;Nitriansky kraj;642;180;28.3;180;177;635;148;23.30;148;146
+Travnik;Komarno;Nitriansky kraj;573;148;25.82;148;148;572;109;19.5;109;106
+Velke Kosihy;Komarno;Nitriansky kraj;817;247;30.23;247;245;808;170;21.3;170;166
 Virt;Komarno;Nitriansky kraj;246;81;32.92;81;80;248;85;34.27;85;84
 Vrbova nad Vahom;Komarno;Nitriansky kraj;448;105;23.43;105;104;447;79;17.67;79;78
 Zemianska Olca;Komarno;Nitriansky kraj;2029;365;17.98;365;362;2026;323;15.94;323;321
@@ -664,7 +664,7 @@ Bory;Levice;Nitriansky kraj;266;127;47.74;127;124;269;105;39.03;105;100
 Brhlovce;Levice;Nitriansky kraj;262;132;50.38;132;132;267;131;49.06;131;130
 Cajkov;Levice;Nitriansky kraj;796;482;60.55;482;481;795;413;51.94;413;396
 Caka;Levice;Nitriansky kraj;629;266;42.28;266;265;626;197;31.46;197;196
-Cata;Levice;Nitriansky kraj;905;235;25.96;235;232;903;190;21.04;190;186
+Cata;Levice;Nitriansky kraj;905;235;25.96;235;232;903;190;21.4;190;186
 Demandice;Levice;Nitriansky kraj;806;377;46.77;377;366;802;295;36.78;295;293
 Devicany;Levice;Nitriansky kraj;348;203;58.33;203;202;342;151;44.15;151;149
 Dolna Sec;Levice;Nitriansky kraj;410;185;45.12;185;184;413;162;39.22;162;160
@@ -675,7 +675,7 @@ Drzenice;Levice;Nitriansky kraj;316;183;57.91;183;183;320;161;50.31;161;157
 Farna;Levice;Nitriansky kraj;1147;314;27.37;314;309;1144;234;20.45;234;231
 Hokovce;Levice;Nitriansky kraj;438;186;42.46;186;185;420;143;34.04;143;142
 Hontianska Vrbica;Levice;Nitriansky kraj;496;179;36.08;179;179;493;131;26.57;131;128
-Hontianske Trsùany;Levice;Nitriansky kraj;255;171;67.05;171;169;253;121;47.82;121;115
+Hontianske Trstany;Levice;Nitriansky kraj;255;171;67.05;171;169;253;121;47.82;121;115
 Horna Sec;Levice;Nitriansky kraj;468;308;65.81;308;304;460;265;57.60;265;258
 Horne Semerovce;Levice;Nitriansky kraj;498;195;39.15;195;195;500;163;32.60;163;160
 Horne Turovce;Levice;Nitriansky kraj;480;192;40.00;192;191;473;151;31.92;151;148
@@ -691,7 +691,7 @@ Jablonovce;Levice;Nitriansky kraj;189;97;51.32;97;96;192;82;42.70;82;81
 Jesenske;Levice;Nitriansky kraj;38;25;65.78;25;25;38;20;52.63;20;19
 Jur nad Hronom;Levice;Nitriansky kraj;809;406;50.18;406;405;808;330;40.84;330;320
 Kalna nad Hronom;Levice;Nitriansky kraj;1730;783;45.26;783;779;1721;634;36.83;633;621
-Keù;Levice;Nitriansky kraj;498;201;40.36;201;200;495;134;27.07;134;130
+Ket;Levice;Nitriansky kraj;498;201;40.36;201;200;495;134;27.7;134;130
 Kozarovce;Levice;Nitriansky kraj;1620;907;55.98;907;901;1620;790;48.76;790;774
 Krskany;Levice;Nitriansky kraj;648;337;52.00;337;333;646;273;42.26;273;262
 Kubanovo;Levice;Nitriansky kraj;229;67;29.25;67;67;234;67;28.63;67;64
@@ -699,7 +699,7 @@ Kukucinov;Levice;Nitriansky kraj;492;165;33.53;165;164;491;117;23.82;117;116
 Kuralany;Levice;Nitriansky kraj;432;210;48.61;210;209;433;193;44.57;193;192
 Levice;Levice;Nitriansky kraj;27319;13565;49.65;13563;13512;27128;11743;43.28;11742;11536
 Lok;Levice;Nitriansky kraj;814;302;37.10;302;300;817;233;28.51;233;232
-Lontov;Levice;Nitriansky kraj;518;109;21.04;109;108;516;81;15.69;81;81
+Lontov;Levice;Nitriansky kraj;518;109;21.4;109;108;516;81;15.69;81;81
 Lula;Levice;Nitriansky kraj;151;63;41.72;63;63;151;61;40.39;61;58
 Malas;Levice;Nitriansky kraj;420;138;32.85;138;138;419;123;29.35;123;123
 Male Kozmalovce;Levice;Nitriansky kraj;332;147;44.27;147;143;332;121;36.44;121;121
@@ -711,7 +711,7 @@ Nyrovce;Levice;Nitriansky kraj;462;155;33.54;155;153;459;130;28.32;130;128
 Ondrejovce;Levice;Nitriansky kraj;360;164;45.55;164;163;359;126;35.09;126;121
 Pastovce;Levice;Nitriansky kraj;430;101;23.48;101;100;429;80;18.64;80;78
 Pecenice;Levice;Nitriansky kraj;121;84;69.42;84;84;117;77;65.81;77;75
-Plasùovce;Levice;Nitriansky kraj;1324;465;35.12;465;456;1323;381;28.79;381;378
+Plastovce;Levice;Nitriansky kraj;1324;465;35.12;465;456;1323;381;28.79;381;378
 Plave Vozokany;Levice;Nitriansky kraj;610;208;34.09;208;208;604;194;32.11;194;191
 Podluzany;Levice;Nitriansky kraj;653;370;56.66;370;366;640;330;51.56;330;321
 Pohronsky Ruskov;Levice;Nitriansky kraj;1033;351;33.97;351;348;1034;292;28.23;292;283
@@ -720,14 +720,14 @@ Rybnik;Levice;Nitriansky kraj;1175;704;59.91;704;697;1189;605;50.88;605;599
 Santovka;Levice;Nitriansky kraj;576;288;50.00;288;287;572;230;40.20;230;226
 Sazdice;Levice;Nitriansky kraj;362;101;27.90;101;100;363;106;29.20;106;106
 Sikenica;Levice;Nitriansky kraj;521;119;22.84;119;119;519;94;18.11;94;92
-Slatina;Levice;Nitriansky kraj;244;66;27.04;66;65;250;61;24.40;61;58
+Slatina;Levice;Nitriansky kraj;244;66;27.4;66;65;250;61;24.40;61;58
 Stary Hradok;Levice;Nitriansky kraj;155;69;44.51;69;69;158;66;41.77;66;66
 Stary Tekov;Levice;Nitriansky kraj;1230;776;63.08;776;768;1225;659;53.79;659;651
-Sahy;Levice;Nitriansky kraj;6125;1877;30.64;1877;1864;6104;1652;27.06;1652;1629
+Sahy;Levice;Nitriansky kraj;6125;1877;30.64;1877;1864;6104;1652;27.6;1652;1629
 Salov;Levice;Nitriansky kraj;266;47;17.66;47;47;265;30;11.32;30;30
-Sarovce;Levice;Nitriansky kraj;1263;308;24.38;308;305;1260;227;18.01;227;226
+Sarovce;Levice;Nitriansky kraj;1263;308;24.38;308;305;1260;227;18.1;227;226
 Tehla;Levice;Nitriansky kraj;402;160;39.80;160;158;399;119;29.82;119;119
-Tekovske Luzany;Levice;Nitriansky kraj;2339;777;33.21;777;769;2332;562;24.09;562;555
+Tekovske Luzany;Levice;Nitriansky kraj;2339;777;33.21;777;769;2332;562;24.9;562;555
 Tekovsky Hradok;Levice;Nitriansky kraj;286;95;33.21;95;95;288;73;25.34;73;69
 Tlmace;Levice;Nitriansky kraj;3136;1592;50.76;1592;1581;3126;1401;44.81;1401;1372
 Tupa;Levice;Nitriansky kraj;474;210;44.30;210;210;484;160;33.05;160;159
@@ -759,7 +759,7 @@ Dolne Lefantovce;Nitra;Nitriansky kraj;539;297;55.10;297;297;542;232;42.80;232;2
 Dolne Obdokovce;Nitra;Nitriansky kraj;953;382;40.08;382;381;949;288;30.34;288;283
 Golianovo;Nitra;Nitriansky kraj;1392;810;58.18;810;807;1397;628;44.95;628;616
 Horne Lefantovce;Nitra;Nitriansky kraj;762;428;56.16;428;426;749;363;48.46;363;353
-Hosùova;Nitra;Nitriansky kraj;327;165;50.45;165;165;326;134;41.10;134;131
+Hostova;Nitra;Nitriansky kraj;327;165;50.45;165;165;326;134;41.10;134;131
 Hrubonovo;Nitra;Nitriansky kraj;432;222;51.38;222;222;437;211;48.28;211;208
 Ivanka pri Nitre;Nitra;Nitriansky kraj;2295;1186;51.67;1186;1176;2294;960;41.84;960;938
 Jarok;Nitra;Nitriansky kraj;1686;898;53.26;898;891;1686;743;44.06;743;725
@@ -770,7 +770,7 @@ Klasov;Nitra;Nitriansky kraj;1027;467;45.47;467;466;1034;415;40.13;415;411
 Kolinany;Nitra;Nitriansky kraj;1288;588;45.65;588;581;1289;474;36.77;474;471
 Lehota;Nitra;Nitriansky kraj;1912;1043;54.55;1043;1042;1916;907;47.33;907;894
 Lucnica nad Zitavou;Nitra;Nitriansky kraj;800;435;54.37;435;429;786;344;43.76;344;340
-ºudovitova;Nitra;Nitriansky kraj;213;130;61.03;130;129;208;111;53.36;111;107
+Ludovitova;Nitra;Nitriansky kraj;213;130;61.03;130;129;208;111;53.36;111;107
 Lukacovce;Nitra;Nitriansky kraj;964;458;47.51;458;456;973;377;38.74;377;368
 Luzianky;Nitra;Nitriansky kraj;2440;1139;46.68;1138;1132;2435;883;36.26;882;862
 Male Chyndice;Nitra;Nitriansky kraj;323;156;48.29;156;155;323;115;35.60;115;113
@@ -811,7 +811,7 @@ Caradice;Zlate Moravce;Nitriansky kraj;410;233;56.82;233;231;418;207;49.52;207;2
 Cerveny Hradok;Zlate Moravce;Nitriansky kraj;344;182;52.90;182;182;348;148;42.52;148;147
 Cierne Klacany;Zlate Moravce;Nitriansky kraj;951;532;55.94;532;531;952;470;49.36;470;466
 Hostie;Zlate Moravce;Nitriansky kraj;1029;583;56.65;583;579;1012;455;44.96;455;451
-Hosùovce;Zlate Moravce;Nitriansky kraj;601;322;53.57;322;321;595;263;44.20;263;256
+Hostovce;Zlate Moravce;Nitriansky kraj;601;322;53.57;322;321;595;263;44.20;263;256
 Choca;Zlate Moravce;Nitriansky kraj;429;207;48.25;207;205;433;182;42.03;182;181
 Jedlove Kostolany;Zlate Moravce;Nitriansky kraj;777;372;47.87;370;367;788;348;44.16;348;341
 Kostolany pod Tribecom;Zlate Moravce;Nitriansky kraj;303;184;60.72;184;183;312;200;64.10;200;195
@@ -847,7 +847,7 @@ Bela;Nove Zamky;Nitriansky kraj;314;107;34.07;107;105;317;99;31.23;99;98
 Besenov;Nove Zamky;Nitriansky kraj;1366;442;32.35;442;437;1362;335;24.59;335;327
 Bina;Nove Zamky;Nitriansky kraj;1199;281;23.43;281;274;1204;182;15.11;182;180
 Branovo;Nove Zamky;Nitriansky kraj;488;268;54.91;268;267;484;245;50.61;245;244
-Bruty;Nove Zamky;Nitriansky kraj;489;149;30.47;149;148;488;93;19.05;93;87
+Bruty;Nove Zamky;Nitriansky kraj;489;149;30.47;149;148;488;93;19.5;93;87
 Cechy;Nove Zamky;Nitriansky kraj;257;133;51.75;133;133;264;129;48.86;129;128
 Cernik;Nove Zamky;Nitriansky kraj;844;448;53.08;448;445;850;336;39.52;336;324
 Dedinka;Nove Zamky;Nitriansky kraj;567;269;47.44;269;268;581;262;45.09;262;255
@@ -856,19 +856,19 @@ Dubnik;Nove Zamky;Nitriansky kraj;1330;458;34.43;458;454;1328;366;27.56;366;362
 Dvory nad Zitavou;Nove Zamky;Nitriansky kraj;4146;1343;32.39;1343;1336;4155;1226;29.50;1226;1211
 Gbelce;Nove Zamky;Nitriansky kraj;1792;501;27.95;501;495;1793;418;23.31;418;413
 Hul;Nove Zamky;Nitriansky kraj;1035;497;48.01;497;495;1043;392;37.58;392;378
-Chlaba;Nove Zamky;Nitriansky kraj;584;106;18.15;106;106;593;95;16.02;95;94
+Chlaba;Nove Zamky;Nitriansky kraj;584;106;18.15;106;106;593;95;16.2;95;94
 Jasova;Nove Zamky;Nitriansky kraj;964;494;51.24;494;492;965;419;43.41;419;411
 Jatov;Nove Zamky;Nitriansky kraj;619;337;54.44;337;333;621;290;46.69;290;285
 Kamenica nad Hronom;Nove Zamky;Nitriansky kraj;1089;276;25.34;276;274;1092;251;22.98;251;242
 Kamenin;Nove Zamky;Nitriansky kraj;1242;275;22.14;275;274;1253;206;16.44;206;205
 Kamenny Most;Nove Zamky;Nitriansky kraj;876;250;28.53;250;248;880;209;23.75;209;209
-Kmeùovo;Nove Zamky;Nitriansky kraj;732;427;58.33;427;426;717;366;51.04;366;358
+Kmetovo;Nove Zamky;Nitriansky kraj;732;427;58.33;427;426;717;366;51.04;366;358
 Kolta;Nove Zamky;Nitriansky kraj;1102;520;47.18;520;519;1093;414;37.87;414;398
 Komjatice;Nove Zamky;Nitriansky kraj;3447;1532;44.44;1532;1524;3453;1294;37.47;1294;1278
 Komoca;Nove Zamky;Nitriansky kraj;820;279;34.02;279;276;818;232;28.36;232;229
 Lela;Nove Zamky;Nitriansky kraj;269;81;30.11;81;74;268;82;30.59;82;80
 Lipova;Nove Zamky;Nitriansky kraj;1307;641;49.04;641;640;1303;488;37.45;488;475
-ºuba;Nove Zamky;Nitriansky kraj;372;104;27.95;104;104;371;81;21.83;81;79
+Luba;Nove Zamky;Nitriansky kraj;372;104;27.95;104;104;371;81;21.83;81;79
 Mala nad Hronom;Nove Zamky;Nitriansky kraj;335;89;26.56;89;88;335;56;16.71;56;53
 Male Kosihy;Nove Zamky;Nitriansky kraj;294;84;28.57;84;84;292;61;20.89;61;60
 Mana;Nove Zamky;Nitriansky kraj;1706;777;45.54;777;772;1717;627;36.51;627;617
@@ -888,8 +888,8 @@ Rastislavice;Nove Zamky;Nitriansky kraj;792;406;51.26;406;406;796;363;45.60;363;
 Ruban;Nove Zamky;Nitriansky kraj;752;204;27.12;204;202;755;149;19.73;149;146
 Salka;Nove Zamky;Nitriansky kraj;874;192;21.96;192;191;873;131;15.00;131;129
 Semerovo;Nove Zamky;Nitriansky kraj;1083;480;44.32;480;476;1090;409;37.52;409;403
-Sikenicka;Nove Zamky;Nitriansky kraj;386;112;29.01;112;111;387;66;17.05;66;66
-Strekov;Nove Zamky;Nitriansky kraj;1649;396;24.01;395;393;1654;327;19.77;327;324
+Sikenicka;Nove Zamky;Nitriansky kraj;386;112;29.1;112;111;387;66;17.5;66;66
+Strekov;Nove Zamky;Nitriansky kraj;1649;396;24.1;395;393;1654;327;19.77;327;324
 Svodin;Nove Zamky;Nitriansky kraj;2045;548;26.79;548;547;2035;461;22.65;461;458
 Sarkan;Nove Zamky;Nitriansky kraj;295;73;24.74;73;73;287;82;28.57;82;81
 Sturovo;Nove Zamky;Nitriansky kraj;8557;2804;32.76;2804;2786;8579;2612;30.44;2612;2587
@@ -901,7 +901,7 @@ Velke Lovce;Nove Zamky;Nitriansky kraj;1557;709;45.53;709;707;1557;588;37.76;588
 Velky Kyr;Nove Zamky;Nitriansky kraj;2527;1067;42.22;1067;1058;2526;927;36.69;926;909
 Vlkas;Nove Zamky;Nitriansky kraj;270;159;58.88;159;156;272;152;55.88;152;146
 Zemne;Nove Zamky;Nitriansky kraj;1767;436;24.67;436;435;1762;403;22.87;403;401
-Diakovce;Sala;Nitriansky kraj;1948;766;39.32;766;760;1957;607;31.01;607;605
+Diakovce;Sala;Nitriansky kraj;1948;766;39.32;766;760;1957;607;31.1;607;605
 Dlha nad Vahom;Sala;Nitriansky kraj;764;414;54.18;414;413;769;382;49.67;381;378
 Hajske;Sala;Nitriansky kraj;1072;534;49.81;534;533;1060;447;42.16;447;442
 Horna Kralova;Sala;Nitriansky kraj;1565;714;45.62;714;712;1568;595;37.94;595;588
@@ -913,7 +913,7 @@ Sala;Sala;Nitriansky kraj;17983;8715;48.46;8712;8655;17948;7927;44.16;7926;7817
 Tesedikovo;Sala;Nitriansky kraj;3107;999;32.15;999;995;3103;842;27.13;842;828
 Trnovec nad Vahom;Sala;Nitriansky kraj;2250;932;41.42;931;927;2246;794;35.35;794;781
 Vlcany;Sala;Nitriansky kraj;2711;719;26.52;719;717;2707;615;22.71;615;610
-Ziharec;Sala;Nitriansky kraj;1411;386;27.35;386;385;1412;283;20.04;283;280
+Ziharec;Sala;Nitriansky kraj;1411;386;27.35;386;385;1412;283;20.4;283;280
 Ardanovce;Topolcany;Nitriansky kraj;178;78;43.82;78;77;181;69;38.12;69;69
 Belince;Topolcany;Nitriansky kraj;278;148;53.23;148;143;281;143;50.88;143;141
 Biskupova;Topolcany;Nitriansky kraj;191;100;52.35;100;100;191;82;42.93;82;81
@@ -1047,12 +1047,12 @@ Liptovsky Mikulas;Liptovsky Mikulas;Zilinsky kraj;26110;13737;52.61;13736;13663;
 Liptovsky Ondrej;Liptovsky Mikulas;Zilinsky kraj;505;278;55.04;278;277;510;234;45.88;234;232
 Liptovsky Peter;Liptovsky Mikulas;Zilinsky kraj;1100;610;55.45;610;608;1083;498;45.98;498;488
 Liptovsky Trnovec;Liptovsky Mikulas;Zilinsky kraj;516;302;58.52;302;300;525;296;56.38;296;291
-ºubela;Liptovsky Mikulas;Zilinsky kraj;956;531;55.54;530;520;956;473;49.47;472;462
+Lubela;Liptovsky Mikulas;Zilinsky kraj;956;531;55.54;530;520;956;473;49.47;472;462
 Malatiny;Liptovsky Mikulas;Zilinsky kraj;185;103;55.67;103;103;186;94;50.53;94;88
 Male Borove;Liptovsky Mikulas;Zilinsky kraj;112;42;37.50;42;40;115;35;30.43;35;35
 Maluzina;Liptovsky Mikulas;Zilinsky kraj;198;108;54.54;108;107;191;81;42.40;81;78
 Nizna Boca;Liptovsky Mikulas;Zilinsky kraj;144;101;70.13;101;100;153;110;71.89;110;108
-Partizanska ºupca;Liptovsky Mikulas;Zilinsky kraj;1077;558;51.81;558;552;1078;437;40.53;437;421
+Partizanska Lupca;Liptovsky Mikulas;Zilinsky kraj;1077;558;51.81;558;552;1078;437;40.53;437;421
 Pavcina Lehota;Liptovsky Mikulas;Zilinsky kraj;352;247;70.17;247;247;394;262;66.49;262;259
 Pavlova Ves;Liptovsky Mikulas;Zilinsky kraj;225;107;47.55;107;107;226;93;41.15;93;90
 Podturen;Liptovsky Mikulas;Zilinsky kraj;871;530;60.84;530;520;867;410;47.28;410;402
@@ -1083,7 +1083,7 @@ Folkusova;Martin;Zilinsky kraj;124;66;53.22;66;64;124;75;60.48;75;75
 Horny Kalnik;Martin;Zilinsky kraj;143;111;77.62;111;111;143;99;69.23;99;96
 Karlova;Martin;Zilinsky kraj;95;62;65.26;62;61;96;49;51.04;49;49
 Klastor pod Znievom;Martin;Zilinsky kraj;1408;778;55.25;778;776;1415;647;45.72;647;637
-Kosùany nad Turcom;Martin;Zilinsky kraj;1053;664;63.05;664;658;1060;513;48.39;513;506
+Kostany nad Turcom;Martin;Zilinsky kraj;1053;664;63.05;664;658;1060;513;48.39;513;506
 Krpelany;Martin;Zilinsky kraj;932;535;57.40;535;528;924;429;46.42;429;422
 Laskar;Martin;Zilinsky kraj;93;56;60.21;56;56;94;42;44.68;42;41
 Leziachov;Martin;Zilinsky kraj;128;72;56.25;72;72;127;47;37.00;47;47
@@ -1151,15 +1151,15 @@ Lokca;Namestovo;Zilinsky kraj;1778;922;51.85;922;917;1779;647;36.36;647;615
 Lomna;Namestovo;Zilinsky kraj;654;316;48.31;316;315;656;229;34.90;229;223
 Mutne;Namestovo;Zilinsky kraj;2126;1339;62.98;1339;1335;2137;831;38.88;831;782
 Namestovo;Namestovo;Zilinsky kraj;6078;3313;54.50;3313;3293;6102;2705;44.32;2705;2616
-Novoù;Namestovo;Zilinsky kraj;2606;1528;58.63;1528;1522;2604;965;37.05;963;897
+Novot;Namestovo;Zilinsky kraj;2606;1528;58.63;1528;1522;2604;965;37.05;963;897
 Oravska Jasenica;Namestovo;Zilinsky kraj;1425;770;54.03;770;761;1431;550;38.43;550;526
 Oravska Lesna;Namestovo;Zilinsky kraj;2586;1522;58.85;1522;1511;2494;1182;47.39;1182;1119
 Oravska Polhora;Namestovo;Zilinsky kraj;2820;1295;45.92;1295;1287;2817;820;29.10;820;780
 Oravske Vesele;Namestovo;Zilinsky kraj;2189;1214;55.45;1214;1203;2205;857;38.86;857;820
 Rabca;Namestovo;Zilinsky kraj;3566;1560;43.74;1558;1543;3560;1120;31.46;1119;1082
 Rabcice;Namestovo;Zilinsky kraj;1499;790;52.70;789;781;1498;558;37.24;557;545
-Sihelne;Namestovo;Zilinsky kraj;1523;553;36.30;553;551;1527;382;25.01;382;363
-çapesovo;Namestovo;Zilinsky kraj;546;327;59.89;327;323;549;254;46.26;254;243
+Sihelne;Namestovo;Zilinsky kraj;1523;553;36.30;553;551;1527;382;25.1;382;363
+Tapesovo;Namestovo;Zilinsky kraj;546;327;59.89;327;323;549;254;46.26;254;243
 Vasilov;Namestovo;Zilinsky kraj;621;297;47.82;297;294;617;201;32.57;201;192
 Vavrecka;Namestovo;Zilinsky kraj;1174;649;55.28;649;645;1157;520;44.94;520;492
 Zakamenne;Namestovo;Zilinsky kraj;3946;2105;53.34;2105;2098;3948;1415;35.84;1415;1340
@@ -1193,7 +1193,7 @@ Liptovske Revuce;Ruzomberok;Zilinsky kraj;1337;713;53.32;713;711;1343;584;43.48;
 Liptovske Sliace;Ruzomberok;Zilinsky kraj;3054;1744;57.10;1744;1736;3034;1303;42.94;1302;1260
 Liptovsky Michal;Ruzomberok;Zilinsky kraj;247;149;60.32;149;148;241;120;49.79;120;118
 Liskova;Ruzomberok;Zilinsky kraj;1770;1035;58.47;1035;1028;1762;855;48.52;855;835
-ºubochna;Ruzomberok;Zilinsky kraj;854;479;56.08;479;477;889;407;45.78;407;401
+Lubochna;Ruzomberok;Zilinsky kraj;854;479;56.08;479;477;889;407;45.78;407;401
 Lucky;Ruzomberok;Zilinsky kraj;1453;863;59.39;863;857;1476;737;49.93;737;717
 Ludrova;Ruzomberok;Zilinsky kraj;816;475;58.21;473;469;811;346;42.66;346;331
 Martincek;Ruzomberok;Zilinsky kraj;361;218;60.38;218;218;361;176;48.75;176;166
@@ -1296,12 +1296,12 @@ Harmanec;Banska Bystrica;Banskobystricky kraj;728;315;43.26;315;313;722;255;35.3
 Hiadel;Banska Bystrica;Banskobystricky kraj;418;202;48.32;202;201;419;160;38.18;160;159
 Horna Micina;Banska Bystrica;Banskobystricky kraj;508;334;65.74;334;332;507;295;58.18;295;291
 Horne Prsany;Banska Bystrica;Banskobystricky kraj;331;185;55.89;185;184;331;167;50.45;167;167
-Hrochoù;Banska Bystrica;Banskobystricky kraj;1171;477;40.73;476;472;1174;374;31.85;374;373
+Hrochot;Banska Bystrica;Banskobystricky kraj;1171;477;40.73;476;472;1174;374;31.85;374;373
 Hronsek;Banska Bystrica;Banskobystricky kraj;534;322;60.29;322;321;545;278;51.00;278;277
 Kordiky;Banska Bystrica;Banskobystricky kraj;356;267;75.00;267;266;358;206;57.54;206;203
 Kraliky;Banska Bystrica;Banskobystricky kraj;565;362;64.07;362;359;571;332;58.14;332;319
 Kyncelova;Banska Bystrica;Banskobystricky kraj;336;214;63.69;214;212;335;185;55.22;185;183
-ºubietova;Banska Bystrica;Banskobystricky kraj;950;549;57.78;549;548;1013;472;46.59;472;458
+Lubietova;Banska Bystrica;Banskobystricky kraj;950;549;57.78;549;548;1013;472;46.59;472;458
 Lucatin;Banska Bystrica;Banskobystricky kraj;561;309;55.08;309;307;554;269;48.55;269;267
 Malachov;Banska Bystrica;Banskobystricky kraj;927;546;58.89;546;545;917;476;51.90;476;468
 Medzibrod;Banska Bystrica;Banskobystricky kraj;1148;649;56.53;649;646;1141;540;47.32;540;529
@@ -1318,7 +1318,7 @@ Priechod;Banska Bystrica;Banskobystricky kraj;825;449;54.42;449;447;819;376;45.9
 Riecka;Banska Bystrica;Banskobystricky kraj;636;379;59.59;379;376;640;342;53.43;342;330
 Sebedin - Becov;Banska Bystrica;Banskobystricky kraj;294;173;58.84;173;170;295;141;47.79;141;136
 Selce;Banska Bystrica;Banskobystricky kraj;1781;1031;57.88;1031;1023;1758;882;50.17;880;851
-Slovenska ºupca;Banska Bystrica;Banskobystricky kraj;2706;1436;53.06;1436;1426;2700;1182;43.77;1182;1153
+Slovenska Lupca;Banska Bystrica;Banskobystricky kraj;2706;1436;53.06;1436;1426;2700;1182;43.77;1182;1153
 Stare Hory;Banska Bystrica;Banskobystricky kraj;490;267;54.48;266;266;491;260;52.95;260;253
 Strelniky;Banska Bystrica;Banskobystricky kraj;646;362;56.03;362;361;636;300;47.16;300;295
 Spania Dolina;Banska Bystrica;Banskobystricky kraj;221;148;66.96;148;147;209;120;57.41;120;113
@@ -1370,7 +1370,7 @@ Filakovo;Lucenec;Banskobystricky kraj;7895;1877;23.77;1877;1870;7877;1603;20.35;
 Filakovske Kovace;Lucenec;Banskobystricky kraj;700;203;29.00;203;201;700;161;23.00;161;159
 Gregorova Vieska;Lucenec;Banskobystricky kraj;108;57;52.77;57;56;109;51;46.78;51;51
 Halic;Lucenec;Banskobystricky kraj;1335;643;48.16;643;637;1334;500;37.48;500;479
-Holisa;Lucenec;Banskobystricky kraj;492;143;29.06;143;141;490;128;26.12;128;124
+Holisa;Lucenec;Banskobystricky kraj;492;143;29.6;143;141;490;128;26.12;128;124
 Jelsovec;Lucenec;Banskobystricky kraj;238;61;25.63;61;61;239;39;16.31;39;39
 Kalonda;Lucenec;Banskobystricky kraj;167;54;32.33;54;54;173;39;22.54;39;37
 Kotmanova;Lucenec;Banskobystricky kraj;246;111;45.12;111;111;244;93;38.11;93;90
@@ -1378,12 +1378,12 @@ Lehotka;Lucenec;Banskobystricky kraj;290;112;38.62;112;112;290;91;31.37;91;90
 Lentvora;Lucenec;Banskobystricky kraj;64;18;28.12;18;18;64;23;35.93;23;23
 Lipovany;Lucenec;Banskobystricky kraj;210;83;39.52;83;82;207;61;29.46;61;61
 Lovinobana;Lucenec;Banskobystricky kraj;1587;619;39.00;619;617;1582;501;31.66;500;490
-ºuborec;Lucenec;Banskobystricky kraj;275;112;40.72;112;110;267;80;29.96;80;76
+Luborec;Lucenec;Banskobystricky kraj;275;112;40.72;112;110;267;80;29.96;80;76
 Lucenec;Lucenec;Banskobystricky kraj;21844;8906;40.77;8905;8826;21968;7832;35.65;7831;7706
 Lupoc;Lucenec;Banskobystricky kraj;175;73;41.71;73;72;177;67;37.85;67;67
 Maskova;Lucenec;Banskobystricky kraj;258;88;34.10;88;88;257;80;31.12;80;78
 Mikusovce;Lucenec;Banskobystricky kraj;233;115;49.35;115;112;235;101;42.97;101;99
-Mucin;Lucenec;Banskobystricky kraj;582;142;24.39;139;139;584;129;22.08;129;126
+Mucin;Lucenec;Banskobystricky kraj;582;142;24.39;139;139;584;129;22.8;129;126
 Mytna;Lucenec;Banskobystricky kraj;1006;474;47.11;474;471;1002;390;38.92;390;387
 Nitra nad Iplom;Lucenec;Banskobystricky kraj;267;49;18.35;49;48;267;40;14.98;40;40
 Nove Hony;Lucenec;Banskobystricky kraj;146;53;36.30;53;51;146;61;41.78;61;60
@@ -1395,7 +1395,7 @@ Podrecany;Lucenec;Banskobystricky kraj;470;202;42.97;202;197;467;160;34.26;160;1
 Polichno;Lucenec;Banskobystricky kraj;111;35;31.53;35;35;114;41;35.96;41;41
 Praha;Lucenec;Banskobystricky kraj;70;28;40.00;28;28;68;26;38.23;26;24
 Prsa;Lucenec;Banskobystricky kraj;172;56;32.55;56;56;172;54;31.39;54;54
-Radzovce;Lucenec;Banskobystricky kraj;1314;364;27.70;364;362;1311;289;22.04;289;285
+Radzovce;Lucenec;Banskobystricky kraj;1314;364;27.70;364;362;1311;289;22.4;289;285
 Rapovce;Lucenec;Banskobystricky kraj;768;237;30.85;237;234;764;179;23.42;179;175
 Ratka;Lucenec;Banskobystricky kraj;252;129;51.19;129;129;253;100;39.52;100;99
 Ruzina;Lucenec;Banskobystricky kraj;677;234;34.56;234;234;685;180;26.27;180;179
@@ -1407,7 +1407,7 @@ Surice;Lucenec;Banskobystricky kraj;413;84;20.33;84;83;414;57;13.76;56;56
 Tocnica;Lucenec;Banskobystricky kraj;296;143;48.31;143;142;289;109;37.71;109;109
 Tomasovce;Lucenec;Banskobystricky kraj;1145;624;54.49;624;623;1153;512;44.40;512;501
 Trebelovce;Lucenec;Banskobystricky kraj;719;340;47.28;340;334;728;273;37.50;273;269
-Trenc;Lucenec;Banskobystricky kraj;364;62;17.03;62;62;366;63;17.21;63;63
+Trenc;Lucenec;Banskobystricky kraj;364;62;17.3;62;62;366;63;17.21;63;63
 Tuhar;Lucenec;Banskobystricky kraj;291;134;46.04;134;133;295;117;39.66;117;115
 Velka nad Iplom;Lucenec;Banskobystricky kraj;718;201;27.99;201;201;715;139;19.44;139;135
 Velke Dravce;Lucenec;Banskobystricky kraj;532;187;35.15;187;187;530;171;32.26;171;162
@@ -1427,7 +1427,7 @@ Mladzovo;Poltar;Banskobystricky kraj;95;63;66.31;63;63;90;68;75.55;68;68
 Ozdin;Poltar;Banskobystricky kraj;251;143;56.97;143;141;254;135;53.14;135;133
 Poltar;Poltar;Banskobystricky kraj;4511;2000;44.33;2000;1989;4494;1545;34.37;1544;1511
 Rovnany;Poltar;Banskobystricky kraj;201;94;46.76;94;94;201;78;38.80;78;77
-Selce;Poltar;Banskobystricky kraj;82;31;37.80;31;31;83;20;24.09;20;20
+Selce;Poltar;Banskobystricky kraj;82;31;37.80;31;31;83;20;24.9;20;20
 Susany;Poltar;Banskobystricky kraj;353;195;55.24;195;194;352;171;48.57;171;168
 Soltyska;Poltar;Banskobystricky kraj;92;47;51.08;47;46;96;43;44.79;43;41
 Uhorske;Poltar;Banskobystricky kraj;423;221;52.24;220;220;425;177;41.64;177;170
@@ -1440,7 +1440,7 @@ Gemerska Ves;Revuca;Banskobystricky kraj;704;137;19.46;137;134;704;102;14.48;102
 Gemerske Teplice;Revuca;Banskobystricky kraj;286;126;44.05;126;126;288;94;32.63;94;92
 Gemersky Sad;Revuca;Banskobystricky kraj;242;97;40.08;97;97;242;96;39.66;96;94
 Hrlica;Revuca;Banskobystricky kraj;53;30;56.60;30;30;54;8;14.81;8;7
-Hucin;Revuca;Banskobystricky kraj;674;89;13.20;89;88;660;73;11.06;73;73
+Hucin;Revuca;Banskobystricky kraj;674;89;13.20;89;88;660;73;11.6;73;73
 Chvalova;Revuca;Banskobystricky kraj;125;37;29.60;37;37;129;33;25.58;33;33
 Chyzne;Revuca;Banskobystricky kraj;336;144;42.85;144;144;335;101;30.14;101;95
 Jelsava;Revuca;Banskobystricky kraj;2285;508;22.23;508;501;2243;397;17.69;397;390
@@ -1472,7 +1472,7 @@ Sasa;Revuca;Banskobystricky kraj;118;40;33.89;40;39;114;29;25.43;29;29
 Sirk;Revuca;Banskobystricky kraj;861;261;30.31;261;255;863;218;25.26;218;205
 Skeresovo;Revuca;Banskobystricky kraj;172;60;34.88;60;60;171;42;24.56;42;41
 Sivetice;Revuca;Banskobystricky kraj;273;54;19.78;54;54;274;51;18.61;51;50
-Tornala;Revuca;Banskobystricky kraj;5783;1583;27.37;1583;1566;5770;1332;23.08;1331;1309
+Tornala;Revuca;Banskobystricky kraj;5783;1583;27.37;1583;1566;5770;1332;23.8;1331;1309
 Turcok;Revuca;Banskobystricky kraj;206;74;35.92;74;74;213;62;29.10;62;62
 Visnove;Revuca;Banskobystricky kraj;49;18;36.73;18;18;53;21;39.62;21;21
 Ziar;Revuca;Banskobystricky kraj;98;38;38.77;38;36;98;36;36.73;36;36
@@ -1493,16 +1493,16 @@ Drazice;Rimavska Sobota;Banskobystricky kraj;186;43;23.11;43;43;186;52;27.95;52;
 Driencany;Rimavska Sobota;Banskobystricky kraj;164;85;51.82;85;84;173;74;42.77;74;70
 Drna;Rimavska Sobota;Banskobystricky kraj;145;63;43.44;63;63;145;22;15.17;22;22
 Dubno;Rimavska Sobota;Banskobystricky kraj;131;28;21.37;28;28;131;41;31.29;41;41
-Dubovec;Rimavska Sobota;Banskobystricky kraj;393;78;19.84;78;77;390;47;12.05;47;47
+Dubovec;Rimavska Sobota;Banskobystricky kraj;393;78;19.84;78;77;390;47;12.5;47;47
 Dulovo;Rimavska Sobota;Banskobystricky kraj;147;53;36.05;53;53;148;30;20.27;30;30
 Figa;Rimavska Sobota;Banskobystricky kraj;329;91;27.65;91;90;327;49;14.98;49;46
 Gemercek;Rimavska Sobota;Banskobystricky kraj;80;25;31.25;25;25;80;23;28.75;23;23
 Gemerske Dechtare;Rimavska Sobota;Banskobystricky kraj;347;112;32.27;112;111;346;65;18.78;65;65
 Gemerske Michalovce;Rimavska Sobota;Banskobystricky kraj;75;26;34.66;26;26;77;23;29.87;23;23
-Gemersky Jablonec;Rimavska Sobota;Banskobystricky kraj;574;121;21.08;121;121;574;92;16.02;92;88
+Gemersky Jablonec;Rimavska Sobota;Banskobystricky kraj;574;121;21.8;121;121;574;92;16.2;92;88
 Gortva;Rimavska Sobota;Banskobystricky kraj;386;49;12.69;49;49;386;49;12.69;49;49
-Hajnacka;Rimavska Sobota;Banskobystricky kraj;941;255;27.09;255;249;944;139;14.72;139;133
-Hnusùa;Rimavska Sobota;Banskobystricky kraj;5490;1910;34.79;1910;1887;5506;1578;28.65;1578;1527
+Hajnacka;Rimavska Sobota;Banskobystricky kraj;941;255;27.9;255;249;944;139;14.72;139;133
+Hnusta;Rimavska Sobota;Banskobystricky kraj;5490;1910;34.79;1910;1887;5506;1578;28.65;1578;1527
 Hodejov;Rimavska Sobota;Banskobystricky kraj;1110;248;22.34;248;244;1105;170;15.38;170;169
 Hodejovec;Rimavska Sobota;Banskobystricky kraj;152;58;38.15;58;57;149;50;33.55;50;50
 Horne Zahorany;Rimavska Sobota;Banskobystricky kraj;100;61;61.00;61;61;104;53;50.96;53;52
@@ -1511,7 +1511,7 @@ Hostisovce;Rimavska Sobota;Banskobystricky kraj;160;39;24.37;39;37;161;45;27.95;
 Hrachovo;Rimavska Sobota;Banskobystricky kraj;679;360;53.01;360;357;678;256;37.75;256;250
 Hrusovo;Rimavska Sobota;Banskobystricky kraj;169;93;55.02;93;92;171;80;46.78;80;77
 Hubovo;Rimavska Sobota;Banskobystricky kraj;111;27;24.32;27;26;111;29;26.12;29;29
-Husina;Rimavska Sobota;Banskobystricky kraj;401;91;22.69;91;86;399;60;15.03;60;59
+Husina;Rimavska Sobota;Banskobystricky kraj;401;91;22.69;91;86;399;60;15.3;60;59
 Chanava;Rimavska Sobota;Banskobystricky kraj;560;152;27.14;152;150;559;59;10.55;59;57
 Chramec;Rimavska Sobota;Banskobystricky kraj;313;61;19.48;61;61;310;37;11.93;37;37
 Ivanice;Rimavska Sobota;Banskobystricky kraj;187;62;33.15;62;62;188;47;25.00;47;46
@@ -1541,7 +1541,7 @@ Oravka;Rimavska Sobota;Banskobystricky kraj;129;69;53.48;69;69;131;67;51.14;67;6
 Ozdany;Rimavska Sobota;Banskobystricky kraj;1258;476;37.83;476;469;1253;393;31.36;393;379
 Padarovce;Rimavska Sobota;Banskobystricky kraj;128;46;35.93;46;46;129;43;33.33;43;42
 Pavlovce;Rimavska Sobota;Banskobystricky kraj;263;47;17.87;47;46;271;43;15.86;43;43
-Petrovce;Rimavska Sobota;Banskobystricky kraj;182;51;28.02;51;46;179;49;27.37;49;47
+Petrovce;Rimavska Sobota;Banskobystricky kraj;182;51;28.2;51;46;179;49;27.37;49;47
 Poproc;Rimavska Sobota;Banskobystricky kraj;19;11;57.89;11;11;21;13;61.90;13;13
 Potok;Rimavska Sobota;Banskobystricky kraj;29;20;68.96;20;20;32;25;78.12;25;25
 Radnovce;Rimavska Sobota;Banskobystricky kraj;601;170;28.28;170;166;600;66;11.00;66;64
@@ -1563,7 +1563,7 @@ Stranska;Rimavska Sobota;Banskobystricky kraj;279;76;27.24;76;74;281;67;23.84;67
 Studena;Rimavska Sobota;Banskobystricky kraj;210;45;21.42;45;41;211;30;14.21;30;30
 Sutor;Rimavska Sobota;Banskobystricky kraj;389;128;32.90;128;107;388;77;19.84;77;77
 Simonovce;Rimavska Sobota;Banskobystricky kraj;399;119;29.82;119;118;397;82;20.65;82;81
-Sirkovce;Rimavska Sobota;Banskobystricky kraj;684;146;21.34;146;144;687;76;11.06;76;76
+Sirkovce;Rimavska Sobota;Banskobystricky kraj;684;146;21.34;146;144;687;76;11.6;76;76
 Spanie Pole;Rimavska Sobota;Banskobystricky kraj;73;41;56.16;41;41;67;29;43.28;29;28
 Strkovec;Rimavska Sobota;Banskobystricky kraj;291;56;19.24;56;55;291;59;20.27;59;59
 Tachty;Rimavska Sobota;Banskobystricky kraj;425;191;44.94;191;188;421;125;29.69;125;122
@@ -1575,7 +1575,7 @@ Valice;Rimavska Sobota;Banskobystricky kraj;199;67;33.66;67;64;200;41;20.50;41;4
 Vcelince;Rimavska Sobota;Banskobystricky kraj;625;114;18.24;114;114;624;97;15.54;97;95
 Vecelkov;Rimavska Sobota;Banskobystricky kraj;191;60;31.41;60;59;190;38;20.00;38;38
 Velke Teriakovce;Rimavska Sobota;Banskobystricky kraj;695;279;40.14;279;276;697;204;29.26;204;200
-Velky Blh;Rimavska Sobota;Banskobystricky kraj;863;236;27.34;236;231;860;155;18.02;155;152
+Velky Blh;Rimavska Sobota;Banskobystricky kraj;863;236;27.34;236;231;860;155;18.2;155;152
 Vieska nad Blhom;Rimavska Sobota;Banskobystricky kraj;122;48;39.34;48;47;123;14;11.38;14;13
 Vlkyna;Rimavska Sobota;Banskobystricky kraj;242;48;19.83;48;48;240;45;18.75;45;44
 Vysne Valice;Rimavska Sobota;Banskobystricky kraj;201;51;25.37;51;51;200;40;20.00;40;40
@@ -1588,7 +1588,7 @@ Batorova;Velky Krtis;Banskobystricky kraj;292;105;35.95;105;103;297;81;27.27;81;
 Brusnik;Velky Krtis;Banskobystricky kraj;91;32;35.16;32;32;94;32;34.04;32;32
 Busince;Velky Krtis;Banskobystricky kraj;1128;337;29.87;337;334;1129;261;23.11;261;257
 Cebovce;Velky Krtis;Banskobystricky kraj;881;325;36.88;325;325;869;197;22.66;197;193
-Celare;Velky Krtis;Banskobystricky kraj;383;109;28.45;109;109;382;88;23.03;88;81
+Celare;Velky Krtis;Banskobystricky kraj;383;109;28.45;109;109;382;88;23.3;88;81
 Celovce;Velky Krtis;Banskobystricky kraj;323;126;39.00;126;125;326;112;34.35;112;110
 Cervenany;Velky Krtis;Banskobystricky kraj;29;15;51.72;15;15;31;16;51.61;16;16
 Dacov Lom;Velky Krtis;Banskobystricky kraj;323;134;41.48;134;133;324;129;39.81;129;129
@@ -1603,7 +1603,7 @@ Horne Plachtince;Velky Krtis;Banskobystricky kraj;180;78;43.33;78;78;180;66;36.6
 Horne Strhare;Velky Krtis;Banskobystricky kraj;202;101;50.00;101;101;206;93;45.14;93;92
 Hrusov;Velky Krtis;Banskobystricky kraj;675;355;52.59;355;348;669;301;44.99;301;294
 Chrastince;Velky Krtis;Banskobystricky kraj;190;53;27.89;53;50;191;45;23.56;45;41
-Chrùany;Velky Krtis;Banskobystricky kraj;104;54;51.92;54;54;106;46;43.39;46;45
+Chrtany;Velky Krtis;Banskobystricky kraj;104;54;51.92;54;54;106;46;43.39;46;45
 Ipelske Predmostie;Velky Krtis;Banskobystricky kraj;472;154;32.62;154;152;476;101;21.21;101;101
 Kamenne Kosihy;Velky Krtis;Banskobystricky kraj;272;134;49.26;134;134;270;117;43.33;117;116
 Kiarov;Velky Krtis;Banskobystricky kraj;253;120;47.43;120;120;248;73;29.43;73;73
@@ -1613,7 +1613,7 @@ Kosihovce;Velky Krtis;Banskobystricky kraj;438;163;37.21;163;159;433;98;22.63;98
 Kosihy nad Iplom;Velky Krtis;Banskobystricky kraj;383;117;30.54;117;116;376;109;28.98;109;107
 Kovacovce;Velky Krtis;Banskobystricky kraj;276;87;31.52;87;87;276;71;25.72;71;70
 Lesenice;Velky Krtis;Banskobystricky kraj;427;182;42.62;182;182;428;161;37.61;161;160
-ºuboriecka;Velky Krtis;Banskobystricky kraj;143;86;60.13;86;83;148;83;56.08;83;80
+Luboriecka;Velky Krtis;Banskobystricky kraj;143;86;60.13;86;83;148;83;56.08;83;80
 Mala Calomija;Velky Krtis;Banskobystricky kraj;171;97;56.72;97;96;173;90;52.02;90;80
 Male Straciny;Velky Krtis;Banskobystricky kraj;116;48;41.37;48;48;116;39;33.62;39;38
 Male Zlievce;Velky Krtis;Banskobystricky kraj;227;112;49.33;112;112;232;83;35.77;83;80
@@ -1627,7 +1627,7 @@ Olovary;Velky Krtis;Banskobystricky kraj;243;124;51.02;124;124;241;101;41.90;101
 Opatovska Nova Ves;Velky Krtis;Banskobystricky kraj;500;224;44.80;224;221;497;130;26.15;130;129
 Opava;Velky Krtis;Banskobystricky kraj;92;30;32.60;30;30;92;27;29.34;27;27
 Potor;Velky Krtis;Banskobystricky kraj;649;257;39.59;257;256;650;212;32.61;212;202
-Pravica;Velky Krtis;Banskobystricky kraj;94;21;22.34;21;21;95;20;21.05;20;18
+Pravica;Velky Krtis;Banskobystricky kraj;94;21;22.34;21;21;95;20;21.5;20;18
 Pribelce;Velky Krtis;Banskobystricky kraj;464;223;48.06;223;220;451;191;42.35;191;184
 Secianky;Velky Krtis;Banskobystricky kraj;297;71;23.90;71;70;298;48;16.10;48;46
 Selany;Velky Krtis;Banskobystricky kraj;156;72;46.15;72;72;160;49;30.62;49;49
@@ -1635,7 +1635,7 @@ Senne;Velky Krtis;Banskobystricky kraj;160;85;53.12;85;85;163;70;42.94;70;70
 Sklabina;Velky Krtis;Banskobystricky kraj;737;285;38.67;285;282;738;209;28.31;209;207
 Slovenske Darmoty;Velky Krtis;Banskobystricky kraj;401;126;31.42;126;125;395;84;21.26;84;81
 Slovenske Klacany;Velky Krtis;Banskobystricky kraj;135;50;37.03;50;50;134;39;29.10;39;38
-Stredne Plachtince;Velky Krtis;Banskobystricky kraj;514;203;39.49;203;203;515;155;30.09;155;154
+Stredne Plachtince;Velky Krtis;Banskobystricky kraj;514;203;39.49;203;203;515;155;30.9;155;154
 Suchan;Velky Krtis;Banskobystricky kraj;207;92;44.44;92;92;205;82;40.00;82;81
 Suche Brezovo;Velky Krtis;Banskobystricky kraj;72;32;44.44;32;32;72;36;50.00;36;35
 Sirakov;Velky Krtis;Banskobystricky kraj;178;57;32.02;57;56;176;45;25.56;45;45
@@ -1714,7 +1714,7 @@ Dobra Niva;Zvolen;Banskobystricky kraj;1530;881;57.58;881;877;1505;726;48.23;726
 Dubove;Zvolen;Banskobystricky kraj;231;129;55.84;129;127;237;105;44.30;105;101
 Hronska Breznica;Zvolen;Banskobystricky kraj;217;104;47.92;104;104;218;86;39.44;86;86
 Kovacova;Zvolen;Banskobystricky kraj;1315;824;62.66;824;820;1332;717;53.82;717;701
-Lesù (vojensky obvod);Zvolen;Banskobystricky kraj;27;5;18.51;5;5;27;8;29.62;8;8
+Lest (vojensky obvod);Zvolen;Banskobystricky kraj;27;5;18.51;5;5;27;8;29.62;8;8
 Lieskovec;Zvolen;Banskobystricky kraj;1108;658;59.38;658;646;1099;582;52.95;582;564
 Lukavica;Zvolen;Banskobystricky kraj;198;126;63.63;126;126;199;117;58.79;117;114
 Michalkova;Zvolen;Banskobystricky kraj;37;22;59.45;22;22;35;19;54.28;19;18
@@ -1856,7 +1856,7 @@ Nizna Vola;Bardejov;Presovsky kraj;230;114;49.56;114;113;225;77;34.22;77;72
 Nizny Tvarozec;Bardejov;Presovsky kraj;348;128;36.78;128;127;347;103;29.68;103;103
 Olsavce;Bardejov;Presovsky kraj;142;64;45.07;64;62;142;60;42.25;60;56
 Ondavka;Bardejov;Presovsky kraj;21;13;61.90;13;13;19;13;68.42;13;13
-Ortuùova;Bardejov;Presovsky kraj;151;84;55.62;84;82;150;65;43.33;65;65
+Ortutova;Bardejov;Presovsky kraj;151;84;55.62;84;82;150;65;43.33;65;65
 Osikov;Bardejov;Presovsky kraj;761;496;65.17;496;493;770;369;47.92;369;361
 Petrova;Bardejov;Presovsky kraj;531;102;19.20;102;101;528;68;12.87;68;63
 Poliakovce;Bardejov;Presovsky kraj;300;153;51.00;153;153;292;140;47.94;140;140
@@ -1910,7 +1910,7 @@ Kosarovce;Humenne;Presovsky kraj;490;220;44.89;220;219;485;172;35.46;172;166
 Koskovce;Humenne;Presovsky kraj;461;219;47.50;219;216;461;161;34.92;160;157
 Lackovce;Humenne;Presovsky kraj;594;346;58.24;346;345;589;302;51.27;301;292
 Lieskovec;Humenne;Presovsky kraj;363;182;50.13;182;182;355;165;46.47;165;164
-ºubisa;Humenne;Presovsky kraj;663;302;45.55;302;301;662;250;37.76;250;244
+Lubisa;Humenne;Presovsky kraj;663;302;45.55;302;301;662;250;37.76;250;244
 Lukacovce;Humenne;Presovsky kraj;385;161;41.81;161;161;386;148;38.34;148;147
 Maskovce;Humenne;Presovsky kraj;53;20;37.73;20;20;52;22;42.30;22;22
 Modra nad Cirochou;Humenne;Presovsky kraj;806;391;48.51;391;386;801;319;39.82;319;319
@@ -1937,7 +1937,7 @@ Topolovka;Humenne;Presovsky kraj;667;361;54.12;361;357;681;262;38.47;262;255
 Turcovce;Humenne;Presovsky kraj;266;156;58.64;156;154;260;137;52.69;137;131
 Udavske;Humenne;Presovsky kraj;1006;507;50.39;506;500;1009;430;42.61;430;422
 Velopolie;Humenne;Presovsky kraj;300;156;52.00;156;155;303;128;42.24;128;127
-Viùazovce;Humenne;Presovsky kraj;247;137;55.46;137;135;250;100;40.00;100;97
+Vitazovce;Humenne;Presovsky kraj;247;137;55.46;137;135;250;100;40.00;100;97
 Vysna Jablonka;Humenne;Presovsky kraj;69;50;72.46;50;50;74;53;71.62;53;53
 Vysna Sitnica;Humenne;Presovsky kraj;293;166;56.65;166;166;292;137;46.91;137;135
 Vysne Ladickovce;Humenne;Presovsky kraj;164;73;44.51;73;73;169;71;42.01;71;69
@@ -2007,7 +2007,7 @@ Abrahamovce;Kezmarok;Presovsky kraj;205;109;53.17;109;109;206;89;43.20;89;87
 Busovce;Kezmarok;Presovsky kraj;254;117;46.06;117;117;255;94;36.86;94;91
 Cerveny Klastor;Kezmarok;Presovsky kraj;213;145;68.07;145;142;217;130;59.90;130;128
 Havka;Kezmarok;Presovsky kraj;34;22;64.70;22;22;40;26;65.00;26;26
-Holumnica;Kezmarok;Presovsky kraj;691;147;21.27;147;147;688;83;12.06;83;83
+Holumnica;Kezmarok;Presovsky kraj;691;147;21.27;147;147;688;83;12.6;83;83
 Hradisko;Kezmarok;Presovsky kraj;80;48;60.00;48;48;80;30;37.50;30;29
 Huncovce;Kezmarok;Presovsky kraj;1954;708;36.23;708;697;1954;573;29.32;572;552
 Ihlany;Kezmarok;Presovsky kraj;1056;257;24.33;257;257;1053;184;17.47;184;171
@@ -2017,7 +2017,7 @@ Kezmarok;Kezmarok;Presovsky kraj;12957;6606;50.98;6602;6550;12896;5237;40.60;523
 Krizova Ves;Kezmarok;Presovsky kraj;1365;336;24.61;336;331;1363;252;18.48;252;242
 Lechnica;Kezmarok;Presovsky kraj;204;80;39.21;80;79;203;70;34.48;70;70
 Lendak;Kezmarok;Presovsky kraj;3675;1944;52.89;1944;1931;3674;1027;27.95;1027;927
-ºubica;Kezmarok;Presovsky kraj;3247;1652;50.87;1652;1633;3236;949;29.32;949;906
+Lubica;Kezmarok;Presovsky kraj;3247;1652;50.87;1652;1633;3236;949;29.32;949;906
 Majere;Kezmarok;Presovsky kraj;92;46;50.00;46;46;89;30;33.70;30;30
 Mala Frankova;Kezmarok;Presovsky kraj;159;99;62.26;99;99;145;57;39.31;57;53
 Maly Slavkov;Kezmarok;Presovsky kraj;771;282;36.57;282;279;773;196;25.35;196;179
@@ -2033,7 +2033,7 @@ Spisska Stara Ves;Kezmarok;Presovsky kraj;1748;807;46.16;807;804;1738;670;38.55;
 Spisske Hanusovce;Kezmarok;Presovsky kraj;578;266;46.02;266;265;580;200;34.48;200;184
 Stara Lesna;Kezmarok;Presovsky kraj;852;387;45.42;387;385;829;309;37.27;309;302
 Strane pod Tatrami;Kezmarok;Presovsky kraj;1158;144;12.43;144;144;1158;97;8.37;97;97
-Toporec;Kezmarok;Presovsky kraj;1376;300;21.80;300;298;1372;207;15.08;207;204
+Toporec;Kezmarok;Presovsky kraj;1376;300;21.80;300;298;1372;207;15.8;207;204
 Tvarozna;Kezmarok;Presovsky kraj;525;271;51.61;271;267;532;191;35.90;191;186
 Velka Frankova;Kezmarok;Presovsky kraj;272;154;56.61;154;153;271;98;36.16;98;85
 Velka Lomnica;Kezmarok;Presovsky kraj;3185;1198;37.61;1198;1192;3148;966;30.68;966;936
@@ -2082,7 +2082,7 @@ Ganovce;Poprad;Presovsky kraj;1108;534;48.19;534;529;1107;445;40.19;445;438
 Gerlachov;Poprad;Presovsky kraj;674;315;46.73;315;310;643;220;34.21;220;214
 Hozelec;Poprad;Presovsky kraj;619;326;52.66;326;323;621;266;42.83;266;261
 Horka;Poprad;Presovsky kraj;1583;916;57.86;916;914;1571;636;40.48;636;606
-Hranovnica;Poprad;Presovsky kraj;2116;720;34.02;720;717;2124;447;21.04;447;425
+Hranovnica;Poprad;Presovsky kraj;2116;720;34.02;720;717;2124;447;21.4;447;425
 Janovce;Poprad;Presovsky kraj;999;398;39.83;398;391;999;248;24.82;248;240
 Kravany;Poprad;Presovsky kraj;725;319;44.00;319;316;722;243;33.65;243;235
 Liptovska Teplicka;Poprad;Presovsky kraj;1768;732;41.40;732;725;1771;564;31.84;564;541
@@ -2132,7 +2132,7 @@ Chmelov;Presov;Presovsky kraj;781;288;36.87;288;287;780;191;24.48;191;178
 Chmelovec;Presov;Presovsky kraj;352;224;63.63;224;224;358;175;48.88;175;173
 Chminany;Presov;Presovsky kraj;613;183;29.85;183;181;613;155;25.28;155;147
 Chminianska Nova Ves;Presov;Presovsky kraj;1004;510;50.79;509;508;999;423;42.34;423;407
-Chminianske Jakubovany;Presov;Presovsky kraj;1261;163;12.92;163;162;1261;203;16.09;203;196
+Chminianske Jakubovany;Presov;Presovsky kraj;1261;163;12.92;163;162;1261;203;16.9;203;196
 Janov;Presov;Presovsky kraj;251;144;57.37;144;143;249;114;45.78;114;112
 Janovik;Presov;Presovsky kraj;281;164;58.36;164;163;284;156;54.92;156;155
 Kapusany;Presov;Presovsky kraj;1683;956;56.80;956;952;1687;799;47.36;799;757
@@ -2149,8 +2149,8 @@ Lesicek;Presov;Presovsky kraj;255;75;29.41;75;75;255;58;22.74;58;55
 Licartovce;Presov;Presovsky kraj;802;389;48.50;389;389;791;269;34.00;269;268
 Lipniky;Presov;Presovsky kraj;433;181;41.80;181;180;433;170;39.26;170;169
 Lipovce;Presov;Presovsky kraj;433;243;56.12;243;242;424;182;42.92;182;175
-ºubotice;Presov;Presovsky kraj;2705;1606;59.37;1606;1596;2696;1320;48.96;1319;1263
-ºubovec;Presov;Presovsky kraj;405;198;48.88;198;196;404;152;37.62;152;148
+Lubotice;Presov;Presovsky kraj;2705;1606;59.37;1606;1596;2696;1320;48.96;1319;1263
+Lubovec;Presov;Presovsky kraj;405;198;48.88;198;196;404;152;37.62;152;148
 Lucina;Presov;Presovsky kraj;141;73;51.77;73;73;142;63;44.36;63;61
 Maly Slivnik;Presov;Presovsky kraj;575;117;20.34;117;116;575;87;15.13;87;87
 Maly Saris;Presov;Presovsky kraj;1320;780;59.09;779;776;1305;629;48.19;629;613
@@ -2186,10 +2186,10 @@ Terna;Presov;Presovsky kraj;910;510;56.04;510;505;907;382;42.11;381;367
 Trnkov;Presov;Presovsky kraj;190;113;59.47;113;111;189;86;45.50;86;82
 Tuhrina;Presov;Presovsky kraj;312;96;30.76;96;96;315;87;27.61;87;83
 Tulcik;Presov;Presovsky kraj;1049;611;58.24;611;608;1057;538;50.89;538;533
-Varhanovce;Presov;Presovsky kraj;956;230;24.05;230;226;957;148;15.46;148;141
+Varhanovce;Presov;Presovsky kraj;956;230;24.5;230;226;957;148;15.46;148;141
 Velky Slivnik;Presov;Presovsky kraj;249;137;55.02;137;135;246;105;42.68;105;100
 Velky Saris;Presov;Presovsky kraj;4664;2449;52.50;2448;2435;4630;2071;44.73;2071;1994
-Viùaz;Presov;Presovsky kraj;1526;835;54.71;835;833;1517;622;41.00;622;599
+Vitaz;Presov;Presovsky kraj;1526;835;54.71;835;833;1517;622;41.00;622;599
 Vysna Sebastova;Presov;Presovsky kraj;1002;582;58.08;582;581;1003;453;45.16;453;442
 Zaborske;Presov;Presovsky kraj;691;454;65.70;454;454;686;398;58.01;397;366
 Zahradne;Presov;Presovsky kraj;854;480;56.20;480;477;853;398;46.65;398;386
@@ -2218,7 +2218,7 @@ Krasna Luka;Sabinov;Presovsky kraj;543;291;53.59;291;286;535;237;44.29;237;227
 Krivany;Sabinov;Presovsky kraj;866;369;42.60;369;363;868;320;36.86;320;308
 Lipany;Sabinov;Presovsky kraj;4839;2392;49.43;2391;2373;4825;2064;42.77;2064;1996
 Lucka;Sabinov;Presovsky kraj;523;280;53.53;280;273;526;227;43.15;227;220
-ºutina;Sabinov;Presovsky kraj;411;245;59.61;245;241;390;191;48.97;191;182
+Lutina;Sabinov;Presovsky kraj;411;245;59.61;245;241;390;191;48.97;191;182
 Milpos;Sabinov;Presovsky kraj;488;225;46.10;225;218;488;200;40.98;200;192
 Nizny Slavkov;Sabinov;Presovsky kraj;601;268;44.59;268;268;608;198;32.56;198;193
 Olejnikov;Sabinov;Presovsky kraj;321;85;26.47;85;84;318;80;25.15;80;80
@@ -2260,12 +2260,12 @@ Legnava;Stara ºubovna;Presovsky kraj;106;38;35.84;38;38;103;38;36.89;38;37
 Lesnica;Stara ºubovna;Presovsky kraj;380;213;56.05;213;210;387;127;32.81;127;116
 Litmanova;Stara ºubovna;Presovsky kraj;526;207;39.35;207;206;529;176;33.27;176;172
 Lomnicka;Stara ºubovna;Presovsky kraj;1453;193;13.28;193;186;1454;143;9.83;143;143
-ºubotin;Stara ºubovna;Presovsky kraj;1008;470;46.62;470;468;1005;345;34.32;345;323
+Lubotin;Stara ºubovna;Presovsky kraj;1008;470;46.62;470;468;1005;345;34.32;345;323
 Maly Lipnik;Stara ºubovna;Presovsky kraj;366;204;55.73;204;204;364;183;50.27;183;181
 Matysova;Stara ºubovna;Presovsky kraj;57;50;87.71;50;50;56;51;91.07;51;50
 Mnisek nad Popradom;Stara ºubovna;Presovsky kraj;467;197;42.18;197;197;463;162;34.98;162;144
 Nizne Ruzbachy;Stara ºubovna;Presovsky kraj;493;258;52.33;258;256;497;193;38.83;193;174
-Nova ºubovna;Stara ºubovna;Presovsky kraj;2294;1166;50.82;1166;1162;2276;873;38.35;873;842
+Nova Lubovna;Stara ºubovna;Presovsky kraj;2294;1166;50.82;1166;1162;2276;873;38.35;873;842
 Obrucne;Stara ºubovna;Presovsky kraj;29;20;68.96;20;20;32;26;81.25;26;26
 Orlov;Stara ºubovna;Presovsky kraj;503;260;51.68;260;259;502;219;43.62;219;205
 Plavec;Stara ºubovna;Presovsky kraj;1419;599;42.21;599;599;1423;524;36.82;524;502
@@ -2273,7 +2273,7 @@ Plavnica;Stara ºubovna;Presovsky kraj;1292;667;51.62;667;651;1265;542;42.84;542;
 Podolinec;Stara ºubovna;Presovsky kraj;2451;1027;41.90;1025;1015;2422;798;32.94;797;777
 Puste Pole;Stara ºubovna;Presovsky kraj;188;91;48.40;91;91;190;100;52.63;100;97
 Ruska Vola nad Popradom;Stara ºubovna;Presovsky kraj;68;41;60.29;41;41;86;41;47.67;41;38
-Stara ºubovna;Stara ºubovna;Presovsky kraj;12421;5496;44.24;5496;5458;12360;4694;37.97;4692;4519
+Stara Lubovna;Stara ºubovna;Presovsky kraj;12421;5496;44.24;5496;5458;12360;4694;37.97;4692;4519
 Starina;Stara ºubovna;Presovsky kraj;43;23;53.48;23;23;52;37;71.15;37;37
 Stranany;Stara ºubovna;Presovsky kraj;153;87;56.86;87;86;157;76;48.40;76;75
 Sulin;Stara ºubovna;Presovsky kraj;287;114;39.72;114;113;274;95;34.67;95;90
@@ -2410,10 +2410,10 @@ Dlhe Klcovo;Vranov nad Toplou;Presovsky kraj;1096;506;46.16;506;505;1105;400;36.
 Durdos;Vranov nad Toplou;Presovsky kraj;186;58;31.18;58;58;186;45;24.19;45;44
 Giglovce;Vranov nad Toplou;Presovsky kraj;135;69;51.11;69;69;135;55;40.74;55;50
 Girovce;Vranov nad Toplou;Presovsky kraj;50;29;58.00;29;29;52;34;65.38;34;32
-Hanusovce nad Toplou;Vranov nad Toplou;Presovsky kraj;2805;964;34.36;964;958;2789;837;30.01;837;821
+Hanusovce nad Toplou;Vranov nad Toplou;Presovsky kraj;2805;964;34.36;964;958;2789;837;30.1;837;821
 Hencovce;Vranov nad Toplou;Presovsky kraj;1037;485;46.76;485;484;1034;388;37.52;388;365
 Hermanovce nad Toplou;Vranov nad Toplou;Presovsky kraj;550;290;52.72;290;288;556;224;40.28;224;211
-Hlinne;Vranov nad Toplou;Presovsky kraj;1252;364;29.07;364;360;1255;265;21.11;265;260
+Hlinne;Vranov nad Toplou;Presovsky kraj;1252;364;29.7;364;360;1255;265;21.11;265;260
 Holcikovce;Vranov nad Toplou;Presovsky kraj;358;148;41.34;148;146;360;124;34.44;124;120
 Jasenovce;Vranov nad Toplou;Presovsky kraj;178;99;55.61;99;97;178;95;53.37;95;88
 Jastrabie nad Toplou;Vranov nad Toplou;Presovsky kraj;366;172;46.99;172;172;369;161;43.63;161;157
@@ -2466,9 +2466,9 @@ Zalobin;Vranov nad Toplou;Presovsky kraj;617;220;35.65;220;220;612;169;27.61;169
 Kosice - Dzungla;Kosice I;Kosicky kraj;511;212;41.48;212;206;514;177;34.43;177;173
 Kosice - Kavecany;Kosice I;Kosicky kraj;1072;552;51.49;552;546;1054;486;46.11;486;474
 Kosice - Sever;Kosice I;Kosicky kraj;16242;8383;51.61;8383;8347;16098;7622;47.34;7619;7487
-Kosice - Sidlisko çahanovce;Kosice I;Kosicky kraj;17808;8298;46.59;8295;8241;17645;6855;38.84;6854;6748
+Kosice - Sidlisko Tahanovce;Kosice I;Kosicky kraj;17808;8298;46.59;8295;8241;17645;6855;38.84;6854;6748
 Kosice - Stare Mesto;Kosice I;Kosicky kraj;17129;9264;54.08;9260;9228;17068;8494;49.76;8494;8359
-Kosice - çahanovce;Kosice I;Kosicky kraj;1778;839;47.18;839;835;1754;686;39.11;685;671
+Kosice - Tahanovce;Kosice I;Kosicky kraj;1778;839;47.18;839;835;1754;686;39.11;685;671
 Kosice - Lorincik;Kosice II;Kosicky kraj;569;392;68.89;392;391;567;316;55.73;316;307
 Kosice - Lunik IX;Kosice II;Kosicky kraj;4414;125;2.83;125;118;4425;171;3.86;171;165
 Kosice - Myslava;Kosice II;Kosicky kraj;1968;1192;60.56;1189;1183;1965;1063;54.09;1063;1051
@@ -2497,7 +2497,7 @@ Boliarov;Kosice - okolie;Kosicky kraj;521;144;27.63;144;143;517;121;23.40;121;11
 Budimir;Kosice - okolie;Kosicky kraj;963;593;61.57;593;588;979;542;55.36;542;531
 Bukovec;Kosice - okolie;Kosicky kraj;695;385;55.39;385;384;708;301;42.51;301;296
 Bunetice;Kosice - okolie;Kosicky kraj;71;45;63.38;45;45;70;36;51.42;36;34
-Buzica;Kosice - okolie;Kosicky kraj;954;271;28.40;264;261;948;209;22.04;209;202
+Buzica;Kosice - okolie;Kosicky kraj;954;271;28.40;264;261;948;209;22.4;209;202
 Cestice;Kosice - okolie;Kosicky kraj;721;287;39.80;287;281;711;200;28.12;200;189
 Cakanovce;Kosice - okolie;Kosicky kraj;490;167;34.08;167;165;490;136;27.75;136;135
 Cana;Kosice - okolie;Kosicky kraj;4348;1816;41.76;1816;1800;4343;1431;32.94;1431;1408
@@ -2516,7 +2516,7 @@ Haj;Kosice - okolie;Kosicky kraj;230;112;48.69;112;110;233;102;43.77;102;101
 Haniska;Kosice - okolie;Kosicky kraj;1193;602;50.46;602;598;1188;520;43.77;519;504
 Herlany;Kosice - okolie;Kosicky kraj;262;161;61.45;161;159;263;143;54.37;143;139
 Hodkovce;Kosice - okolie;Kosicky kraj;246;149;60.56;149;149;248;124;50.00;124;122
-Hosùovce;Kosice - okolie;Kosicky kraj;163;78;47.85;78;76;163;65;39.87;65;64
+Hostovce;Kosice - okolie;Kosicky kraj;163;78;47.85;78;76;163;65;39.87;65;64
 Hrasovik;Kosice - okolie;Kosicky kraj;304;184;60.52;184;183;306;161;52.61;161;156
 Hylov;Kosice - okolie;Kosicky kraj;422;238;56.39;238;238;422;186;44.07;186;185
 Chorvaty;Kosice - okolie;Kosicky kraj;90;50;55.55;50;49;91;35;38.46;35;35
@@ -2538,8 +2538,8 @@ Kralovce;Kosice - okolie;Kosicky kraj;910;325;35.71;325;323;907;261;28.77;261;25
 Kysak;Kosice - okolie;Kosicky kraj;1230;728;59.18;728;722;1234;603;48.86;603;578
 Mala Ida;Kosice - okolie;Kosicky kraj;1268;830;65.45;830;828;1264;711;56.25;711;696
 Mala Lodina;Kosice - okolie;Kosicky kraj;218;123;56.42;123;122;225;118;52.44;118;115
-Medzev;Kosice - okolie;Kosicky kraj;2997;916;30.56;916;914;3006;843;28.04;843;829
-Milhosù;Kosice - okolie;Kosicky kraj;306;81;26.47;81;78;312;73;23.39;73;72
+Medzev;Kosice - okolie;Kosicky kraj;2997;916;30.56;916;914;3006;843;28.4;843;829
+Milhost;Kosice - okolie;Kosicky kraj;306;81;26.47;81;78;312;73;23.39;73;72
 Mokrance;Kosice - okolie;Kosicky kraj;1160;523;45.08;523;520;1159;382;32.95;382;379
 Moldava nad Bodvou;Kosice - okolie;Kosicky kraj;7904;2692;34.05;2691;2666;7911;2209;27.92;2208;2167
 Mudrovce;Kosice - okolie;Kosicky kraj;64;36;56.25;36;36;67;41;61.19;41;41
@@ -2571,7 +2571,7 @@ Sady nad Torysou;Kosice - okolie;Kosicky kraj;1513;707;46.72;707;694;1496;596;39
 Sena;Kosice - okolie;Kosicky kraj;1703;682;40.04;682;677;1697;539;31.76;539;530
 Skaros;Kosice - okolie;Kosicky kraj;888;430;48.42;430;429;883;318;36.01;318;307
 Slancik;Kosice - okolie;Kosicky kraj;172;80;46.51;80;78;172;69;40.11;69;63
-Slanec;Kosice - okolie;Kosicky kraj;1170;465;39.74;465;463;1167;339;29.04;339;329
+Slanec;Kosice - okolie;Kosicky kraj;1170;465;39.74;465;463;1167;339;29.4;339;329
 Slanska Huta;Kosice - okolie;Kosicky kraj;193;102;52.84;102;100;198;95;47.97;95;91
 Slanske Nove Mesto;Kosice - okolie;Kosicky kraj;413;183;44.30;183;180;417;181;43.40;181;179
 Sokol;Kosice - okolie;Kosicky kraj;935;471;50.37;471;464;931;420;45.11;420;418
@@ -2580,13 +2580,13 @@ Svinica;Kosice - okolie;Kosicky kraj;760;345;45.39;345;343;763;275;36.04;275;264
 Semsa;Kosice - okolie;Kosicky kraj;724;309;42.67;309;303;718;292;40.66;292;284
 Stos;Kosice - okolie;Kosicky kraj;592;265;44.76;262;261;607;245;40.36;243;237
 Trebejov;Kosice - okolie;Kosicky kraj;168;109;64.88;109;109;160;102;63.75;102;102
-Trsùany;Kosice - okolie;Kosicky kraj;245;146;59.59;146;145;246;123;50.00;123;120
+Trstany;Kosice - okolie;Kosicky kraj;245;146;59.59;146;145;246;123;50.00;123;120
 Trstene pri Hornade;Kosice - okolie;Kosicky kraj;1207;558;46.23;558;555;1202;418;34.77;417;408
 Turna nad Bodvou;Kosice - okolie;Kosicky kraj;2772;862;31.09;862;848;2774;688;24.80;688;670
 Turnianska Nova Ves;Kosice - okolie;Kosicky kraj;263;123;46.76;123;122;265;100;37.73;100;96
 Vajkovce;Kosice - okolie;Kosicky kraj;711;326;45.85;326;325;716;303;42.31;303;298
 Valaliky;Kosice - okolie;Kosicky kraj;3413;1434;42.01;1434;1419;3414;1179;34.53;1179;1153
-Velka Ida;Kosice - okolie;Kosicky kraj;2357;566;24.01;566;559;2352;385;16.36;385;375
+Velka Ida;Kosice - okolie;Kosicky kraj;2357;566;24.1;566;559;2352;385;16.36;385;375
 Velka Lodina;Kosice - okolie;Kosicky kraj;248;98;39.51;98;98;257;88;34.24;88;86
 Vtackovce;Kosice - okolie;Kosicky kraj;745;116;15.57;116;115;744;81;10.88;81;78
 Vysna Hutka;Kosice - okolie;Kosicky kraj;386;173;44.81;173;172;391;144;36.82;144;140
@@ -2608,7 +2608,7 @@ Budkovce;Michalovce;Kosicky kraj;1186;456;38.44;456;456;1186;408;34.40;408;404
 Cecehov;Michalovce;Kosicky kraj;307;148;48.20;148;146;308;121;39.28;121;120
 Cicarovce;Michalovce;Kosicky kraj;698;172;24.64;172;166;696;144;20.68;144;143
 Cierne Pole;Michalovce;Kosicky kraj;286;133;46.50;133;133;286;115;40.20;115;112
-Drahnov;Michalovce;Kosicky kraj;955;106;11.09;106;106;978;72;7.36;72;71
+Drahnov;Michalovce;Kosicky kraj;955;106;11.9;106;106;978;72;7.36;72;71
 Dubravka;Michalovce;Kosicky kraj;540;280;51.85;280;276;546;236;43.22;236;230
 Falkusovce;Michalovce;Kosicky kraj;498;150;30.12;150;147;496;135;27.21;135;132
 Hatalov;Michalovce;Kosicky kraj;620;280;45.16;280;276;616;250;40.58;250;246
@@ -2624,17 +2624,17 @@ Kaluza;Michalovce;Kosicky kraj;406;252;62.06;252;251;350;162;46.28;162;160
 Kapusianske Klacany;Michalovce;Kosicky kraj;656;134;20.42;134;133;670;78;11.64;78;75
 Klokocov;Michalovce;Kosicky kraj;365;218;59.72;218;217;344;149;43.31;149;147
 Krasnovce;Michalovce;Kosicky kraj;518;294;56.75;294;294;521;246;47.21;246;245
-Krisovska Lieskova;Michalovce;Kosicky kraj;675;251;37.18;251;245;676;122;18.04;122;117
+Krisovska Lieskova;Michalovce;Kosicky kraj;675;251;37.18;251;245;676;122;18.4;122;117
 Kusin;Michalovce;Kosicky kraj;292;152;52.05;152;150;288;105;36.45;105;101
 Lastomir;Michalovce;Kosicky kraj;965;425;44.04;425;423;954;376;39.41;376;375
 Laskovce;Michalovce;Kosicky kraj;438;120;27.39;120;118;433;97;22.40;97;96
 Lesne;Michalovce;Kosicky kraj;340;188;55.29;188;188;339;149;43.95;149;149
-Lozin;Michalovce;Kosicky kraj;661;231;34.94;231;230;663;199;30.01;199;194
+Lozin;Michalovce;Kosicky kraj;661;231;34.94;231;230;663;199;30.1;199;194
 Lucky;Michalovce;Kosicky kraj;446;184;41.25;184;182;441;122;27.66;122;118
-Malcice;Michalovce;Kosicky kraj;1010;223;22.07;223;220;1014;173;17.06;173;168
+Malcice;Michalovce;Kosicky kraj;1010;223;22.7;223;220;1014;173;17.6;173;168
 Male Raskovce;Michalovce;Kosicky kraj;200;110;55.00;110;110;200;89;44.50;89;88
 Markovce;Michalovce;Kosicky kraj;646;154;23.83;154;152;645;103;15.96;103;102
-Maùovske Vojkovce;Michalovce;Kosicky kraj;503;161;32.00;161;159;504;95;18.84;95;93
+Matovske Vojkovce;Michalovce;Kosicky kraj;503;161;32.00;161;159;504;95;18.84;95;93
 Michalovce;Michalovce;Kosicky kraj;31074;13229;42.57;13228;13159;30474;11351;37.24;11350;11129
 Moravany;Michalovce;Kosicky kraj;826;325;39.34;325;322;830;259;31.20;259;253
 Nacina Ves;Michalovce;Kosicky kraj;1379;468;33.93;467;466;1377;443;32.17;443;439
@@ -2655,7 +2655,7 @@ Slavkovce;Michalovce;Kosicky kraj;470;130;27.65;130;128;473;124;26.21;124;122
 Sliepkovce;Michalovce;Kosicky kraj;573;162;28.27;162;162;574;159;27.70;159;157
 Stare;Michalovce;Kosicky kraj;630;272;43.17;272;271;628;193;30.73;193;190
 Strazske;Michalovce;Kosicky kraj;3574;1386;38.78;1386;1380;3564;1121;31.45;1121;1093
-Stretava;Michalovce;Kosicky kraj;542;141;26.01;141;141;543;117;21.54;117;117
+Stretava;Michalovce;Kosicky kraj;542;141;26.1;141;141;543;117;21.54;117;117
 Stretavka;Michalovce;Kosicky kraj;137;55;40.14;55;55;136;40;29.41;40;38
 Suche;Michalovce;Kosicky kraj;353;194;54.95;194;193;354;161;45.48;161;157
 Samudovce;Michalovce;Kosicky kraj;430;138;32.09;138;138;432;107;24.76;107;106
@@ -2664,10 +2664,10 @@ Trnava pri Laborci;Michalovce;Kosicky kraj;467;249;53.31;249;248;465;210;45.16;2
 Tusice;Michalovce;Kosicky kraj;561;238;42.42;238;238;555;223;40.18;223;214
 Tusicka Nova Ves;Michalovce;Kosicky kraj;460;245;53.26;245;245;454;207;45.59;207;200
 Velke Kapusany;Michalovce;Kosicky kraj;7340;1778;24.22;1777;1763;7356;1471;19.99;1470;1446
-Velke Raskovce;Michalovce;Kosicky kraj;268;126;47.01;126;124;269;70;26.02;70;68
+Velke Raskovce;Michalovce;Kosicky kraj;268;126;47.01;126;124;269;70;26.2;70;68
 Velke Slemence;Michalovce;Kosicky kraj;454;98;21.58;98;98;455;69;15.16;69;68
 Vinne;Michalovce;Kosicky kraj;1539;764;49.64;764;761;1554;639;41.11;639;630
-Vojany;Michalovce;Kosicky kraj;636;218;34.27;218;212;638;109;17.08;109;106
+Vojany;Michalovce;Kosicky kraj;636;218;34.27;218;212;638;109;17.8;109;106
 Vola;Michalovce;Kosicky kraj;213;110;51.64;110;110;212;92;43.39;92;89
 Vrbnica;Michalovce;Kosicky kraj;673;222;32.98;222;213;671;171;25.48;171;169
 Vysoka nad Uhom;Michalovce;Kosicky kraj;677;221;32.64;221;221;667;161;24.13;161;156
@@ -2676,12 +2676,12 @@ Zavadka;Michalovce;Kosicky kraj;352;156;44.31;156;154;354;130;36.72;130;129
 Zbudza;Michalovce;Kosicky kraj;426;205;48.12;205;203;429;166;38.69;166;161
 Zemplinska Siroka;Michalovce;Kosicky kraj;773;322;41.65;322;319;774;265;34.23;265;262
 Zemplinske Kopcany;Michalovce;Kosicky kraj;273;79;28.93;79;79;272;64;23.52;64;64
-Zbince;Michalovce;Kosicky kraj;730;190;26.02;190;190;730;166;22.73;166;166
+Zbince;Michalovce;Kosicky kraj;730;190;26.2;190;190;730;166;22.73;166;166
 Baskovce;Sobrance;Kosicky kraj;211;103;48.81;103;103;213;106;49.76;106;104
 Benatina;Sobrance;Kosicky kraj;164;85;51.82;85;85;171;73;42.69;73;72
 Bezovce;Sobrance;Kosicky kraj;779;304;39.02;304;304;779;241;30.93;241;236
 Blatna Polianka;Sobrance;Kosicky kraj;136;61;44.85;61;61;138;70;50.72;70;69
-Blatne Remety;Sobrance;Kosicky kraj;481;115;23.90;115;114;484;97;20.04;97;97
+Blatne Remety;Sobrance;Kosicky kraj;481;115;23.90;115;114;484;97;20.4;97;97
 Blatne Revistia;Sobrance;Kosicky kraj;188;90;47.87;90;89;190;71;37.36;71;71
 Bunkovce;Sobrance;Kosicky kraj;287;107;37.28;107;107;281;88;31.31;88;85
 Fekisovce;Sobrance;Kosicky kraj;251;89;35.45;89;89;262;93;35.49;93;92
@@ -2727,12 +2727,12 @@ Zahor;Sobrance;Kosicky kraj;545;196;35.96;196;196;540;186;34.44;186;185
 Ardovo;Roznava;Kosicky kraj;135;77;57.03;77;77;135;60;44.44;60;59
 Betliar;Roznava;Kosicky kraj;796;431;54.14;431;430;795;344;43.27;344;341
 Bohunovo;Roznava;Kosicky kraj;244;86;35.24;86;86;249;69;27.71;69;67
-Borka;Roznava;Kosicky kraj;339;85;25.07;85;82;345;79;22.89;79;79
+Borka;Roznava;Kosicky kraj;339;85;25.7;85;82;345;79;22.89;79;79
 Brdarka;Roznava;Kosicky kraj;48;20;41.66;20;19;60;30;50.00;30;29
 Bretka;Roznava;Kosicky kraj;311;107;34.40;107;104;310;81;26.12;81;81
 Brzotin;Roznava;Kosicky kraj;1019;289;28.36;289;282;1021;224;21.93;224;221
 Cierna Lehota;Roznava;Kosicky kraj;501;179;35.72;179;178;493;158;32.04;158;156
-Coltovo;Roznava;Kosicky kraj;372;93;25.00;92;91;371;67;18.05;67;67
+Coltovo;Roznava;Kosicky kraj;372;93;25.00;92;91;371;67;18.5;67;67
 Cucma;Roznava;Kosicky kraj;520;191;36.73;191;191;519;155;29.86;155;152
 Dedinky;Roznava;Kosicky kraj;232;153;65.94;153;153;237;142;59.91;142;141
 Dlha Ves;Roznava;Kosicky kraj;463;142;30.66;142;142;460;104;22.60;104;102
@@ -2756,27 +2756,27 @@ Kocelovce;Roznava;Kosicky kraj;190;67;35.26;67;66;190;72;37.89;72;71
 Kovacova;Roznava;Kosicky kraj;68;35;51.47;35;34;69;35;50.72;35;35
 Krasnohorska Dlha Luka;Roznava;Kosicky kraj;592;282;47.63;282;279;597;250;41.87;250;242
 Krasnohorske Podhradie;Roznava;Kosicky kraj;1978;667;33.72;667;656;1992;488;24.49;488;475
-Kruzna;Roznava;Kosicky kraj;405;147;36.29;147;145;406;110;27.09;110;107
+Kruzna;Roznava;Kosicky kraj;405;147;36.29;147;145;406;110;27.9;110;107
 Kunova Teplica;Roznava;Kosicky kraj;547;92;16.81;92;92;548;83;15.14;83;82
 Lipovnik;Roznava;Kosicky kraj;435;200;45.97;200;198;437;195;44.62;195;187
 Lucka;Roznava;Kosicky kraj;160;53;33.12;53;52;169;54;31.95;54;54
 Markuska;Roznava;Kosicky kraj;118;52;44.06;52;52;119;49;41.17;49;46
 Meliata;Roznava;Kosicky kraj;171;80;46.78;80;80;171;50;29.23;50;49
 Nizna Slana;Roznava;Kosicky kraj;943;316;33.51;316;313;934;251;26.87;251;250
-Ochtina;Roznava;Kosicky kraj;428;143;33.41;143;143;433;117;27.02;117;116
+Ochtina;Roznava;Kosicky kraj;428;143;33.41;143;143;433;117;27.2;117;116
 Paca;Roznava;Kosicky kraj;478;235;49.16;235;234;479;181;37.78;181;181
-Paskova;Roznava;Kosicky kraj;256;60;23.43;60;59;247;47;19.02;47;45
+Paskova;Roznava;Kosicky kraj;256;60;23.43;60;59;247;47;19.2;47;45
 Petrovo;Roznava;Kosicky kraj;78;41;52.56;41;41;80;37;46.25;37;34
 Plesivec;Roznava;Kosicky kraj;1840;618;33.58;618;609;1830;487;26.61;487;475
 Rakovnica;Roznava;Kosicky kraj;522;274;52.49;274;274;522;221;42.33;221;218
 Rejdova;Roznava;Kosicky kraj;539;202;37.47;202;202;541;172;31.79;172;168
 Rochovce;Roznava;Kosicky kraj;248;88;35.48;88;87;244;70;28.68;70;68
-Rostar;Roznava;Kosicky kraj;407;116;28.50;116;116;402;121;30.09;121;119
+Rostar;Roznava;Kosicky kraj;407;116;28.50;116;116;402;121;30.9;121;119
 Rozlozna;Roznava;Kosicky kraj;155;58;37.41;58;58;159;53;33.33;53;52
 Roznava;Roznava;Kosicky kraj;14722;5892;40.02;5891;5862;14703;4970;33.80;4970;4870
 Roznavske Bystre;Roznava;Kosicky kraj;502;236;47.01;236;236;503;203;40.35;203;200
 Rudna;Roznava;Kosicky kraj;615;285;46.34;285;283;611;201;32.89;201;199
-Silica;Roznava;Kosicky kraj;428;120;28.03;120;119;426;78;18.30;78;77
+Silica;Roznava;Kosicky kraj;428;120;28.3;120;119;426;78;18.30;78;77
 Silicka Brezova;Roznava;Kosicky kraj;140;55;39.28;55;52;134;54;40.29;54;52
 Silicka Jablonica;Roznava;Kosicky kraj;162;79;48.76;79;78;170;74;43.52;74;73
 Slavec;Roznava;Kosicky kraj;380;122;32.10;122;120;380;103;27.10;103;101
@@ -2807,15 +2807,15 @@ Velky Folkmar;Gelnica;Kosicky kraj;762;401;52.62;401;400;768;332;43.22;332;322
 Zavadka;Gelnica;Kosicky kraj;408;159;38.97;159;159;408;124;30.39;124;115
 Zakarovce;Gelnica;Kosicky kraj;549;228;41.53;228;227;547;177;32.35;177;172
 Arnutovce;Spisska Nova Ves;Kosicky kraj;498;141;28.31;141;139;501;97;19.36;97;91
-Betlanovce;Spisska Nova Ves;Kosicky kraj;526;199;37.83;199;197;522;131;25.09;131;126
-Bystrany;Spisska Nova Ves;Kosicky kraj;2104;292;13.87;292;289;2098;274;13.06;274;273
+Betlanovce;Spisska Nova Ves;Kosicky kraj;526;199;37.83;199;197;522;131;25.9;131;126
+Bystrany;Spisska Nova Ves;Kosicky kraj;2104;292;13.87;292;289;2098;274;13.6;274;273
 Danisovce;Spisska Nova Ves;Kosicky kraj;455;303;66.59;303;303;452;258;57.07;258;243
 Harichovce;Spisska Nova Ves;Kosicky kraj;1499;821;54.76;821;815;1470;626;42.58;626;611
 Hincovce;Spisska Nova Ves;Kosicky kraj;185;98;52.97;98;98;183;76;41.53;76;72
 Hnilcik;Spisska Nova Ves;Kosicky kraj;475;219;46.10;219;219;466;171;36.69;171;167
 Hnilec;Spisska Nova Ves;Kosicky kraj;366;164;44.80;163;159;369;141;38.21;141;138
 Hrabusice;Spisska Nova Ves;Kosicky kraj;1792;560;31.25;560;554;1788;410;22.93;410;400
-Chrasù nad Hornadom;Spisska Nova Ves;Kosicky kraj;619;218;35.21;218;217;617;133;21.55;133;129
+Chrast nad Hornadom;Spisska Nova Ves;Kosicky kraj;619;218;35.21;218;217;617;133;21.55;133;129
 Iliasovce;Spisska Nova Ves;Kosicky kraj;789;374;47.40;374;372;788;332;42.13;332;325
 Jamnik;Spisska Nova Ves;Kosicky kraj;906;521;57.50;521;517;913;423;46.33;423;405
 Kalava;Spisska Nova Ves;Kosicky kraj;304;136;44.73;136;135;304;94;30.92;94;94
@@ -2841,21 +2841,21 @@ Spissky Hrusov;Spisska Nova Ves;Kosicky kraj;1017;487;47.88;487;486;1010;343;33.
 Teplicka;Spisska Nova Ves;Kosicky kraj;900;461;51.22;461;458;889;326;36.67;326;319
 Vitkovce;Spisska Nova Ves;Kosicky kraj;410;144;35.12;144;144;413;109;26.39;109;109
 Vojkovce;Spisska Nova Ves;Kosicky kraj;342;184;53.80;184;182;345;159;46.08;159;156
-Zehra;Spisska Nova Ves;Kosicky kraj;1209;134;11.08;134;132;1214;103;8.48;103;99
+Zehra;Spisska Nova Ves;Kosicky kraj;1209;134;11.8;134;132;1214;103;8.48;103;99
 Backa;Trebisov;Kosicky kraj;480;76;15.83;76;69;479;64;13.36;64;58
 Backov;Trebisov;Kosicky kraj;502;238;47.41;238;237;498;195;39.15;195;188
 Bara;Trebisov;Kosicky kraj;241;65;26.97;65;63;241;55;22.82;55;51
 Biel;Trebisov;Kosicky kraj;1125;274;24.35;274;271;1124;196;17.43;196;191
 Bol;Trebisov;Kosicky kraj;591;127;21.48;127;127;590;106;17.96;106;105
 Borsa;Trebisov;Kosicky kraj;955;363;38.01;363;362;961;363;37.77;363;356
-Boùany;Trebisov;Kosicky kraj;924;164;17.74;164;162;925;103;11.13;103;101
+Botany;Trebisov;Kosicky kraj;924;164;17.74;164;162;925;103;11.13;103;101
 Brehov;Trebisov;Kosicky kraj;470;133;28.29;133;130;474;121;25.52;121;121
 Brezina;Trebisov;Kosicky kraj;518;241;46.52;241;240;513;185;36.06;185;178
 Bysta;Trebisov;Kosicky kraj;127;87;68.50;87;86;130;79;60.76;79;79
 Cejkov;Trebisov;Kosicky kraj;975;407;41.74;407;396;979;339;34.62;339;328
 Celovce;Trebisov;Kosicky kraj;415;167;40.24;167;167;419;160;38.18;160;155
 Cerhov;Trebisov;Kosicky kraj;590;232;39.32;232;231;608;197;32.40;197;194
-Cernochov;Trebisov;Kosicky kraj;173;51;29.47;51;51;170;46;27.05;46;45
+Cernochov;Trebisov;Kosicky kraj;173;51;29.47;51;51;170;46;27.5;46;45
 Cierna;Trebisov;Kosicky kraj;399;193;48.37;193;193;399;105;26.31;105;100
 Cierna nad Tisou;Trebisov;Kosicky kraj;2908;632;21.73;632;626;2902;500;17.22;500;486
 Dargov;Trebisov;Kosicky kraj;515;264;51.26;264;263;513;208;40.54;208;206
@@ -2879,8 +2879,8 @@ Leles;Trebisov;Kosicky kraj;1457;359;24.63;359;355;1454;280;19.25;280;277
 Luhyna;Trebisov;Kosicky kraj;271;124;45.75;124;123;274;111;40.51;111;111
 Mala Trna;Trebisov;Kosicky kraj;315;119;37.77;118;114;319;113;35.42;113;109
 Male Ozorovce;Trebisov;Kosicky kraj;435;228;52.41;228;226;439;186;42.36;186;181
-Male Trakany;Trebisov;Kosicky kraj;922;198;21.47;198;190;916;129;14.08;129;123
-Maly Hores;Trebisov;Kosicky kraj;926;149;16.09;149;147;924;133;14.39;133;131
+Male Trakany;Trebisov;Kosicky kraj;922;198;21.47;198;190;916;129;14.8;129;123
+Maly Hores;Trebisov;Kosicky kraj;926;149;16.9;149;147;924;133;14.39;133;131
 Maly Kamenec;Trebisov;Kosicky kraj;396;76;19.19;76;73;398;79;19.84;79;79
 Michalany;Trebisov;Kosicky kraj;1385;523;37.76;523;520;1385;435;31.40;435;433
 Nizny Zipov;Trebisov;Kosicky kraj;1056;322;30.49;322;319;1049;257;24.49;257;252
@@ -2895,7 +2895,7 @@ Secovce;Trebisov;Kosicky kraj;6327;2418;38.21;2418;2398;6328;1952;30.84;1952;188
 Sirnik;Trebisov;Kosicky kraj;468;161;34.40;161;159;472;127;26.90;127;127
 Slivnik;Trebisov;Kosicky kraj;621;285;45.89;285;285;627;258;41.14;258;254
 Slovenske Nove Mesto;Trebisov;Kosicky kraj;846;251;29.66;251;250;842;247;29.33;247;243
-Solnicka;Trebisov;Kosicky kraj;192;52;27.08;52;52;193;64;33.16;64;63
+Solnicka;Trebisov;Kosicky kraj;192;52;27.8;52;52;193;64;33.16;64;63
 Somotor;Trebisov;Kosicky kraj;1220;357;29.26;357;355;1225;305;24.89;305;299
 Stanca;Trebisov;Kosicky kraj;309;156;50.48;156;156;309;113;36.56;113;107
 Stankovce;Trebisov;Kosicky kraj;121;48;39.66;48;46;126;59;46.82;59;57
@@ -2915,8 +2915,8 @@ Velky Kamenec;Trebisov;Kosicky kraj;625;125;20.00;125;123;625;81;12.96;81;80
 Vinicky;Trebisov;Kosicky kraj;383;137;35.77;137;134;387;110;28.42;110;110
 Visnov;Trebisov;Kosicky kraj;188;69;36.70;69;69;188;63;33.51;63;60
 Vojcice;Trebisov;Kosicky kraj;1621;565;34.85;565;557;1618;450;27.81;450;435
-Vojka;Trebisov;Kosicky kraj;377;41;10.87;41;40;377;38;10.07;38;38
-Zatin;Trebisov;Kosicky kraj;618;138;22.33;138;136;621;106;17.06;106;106
+Vojka;Trebisov;Kosicky kraj;377;41;10.87;41;40;377;38;10.7;38;38
+Zatin;Trebisov;Kosicky kraj;618;138;22.33;138;136;621;106;17.6;106;106
 Zbehnov;Trebisov;Kosicky kraj;257;97;37.74;97;97;259;93;35.90;93;91
 Zemplin;Trebisov;Kosicky kraj;281;61;21.70;61;61;281;53;18.86;53;53
 Zemplinska Nova Ves;Trebisov;Kosicky kraj;717;302;42.11;302;298;728;281;38.59;281;275

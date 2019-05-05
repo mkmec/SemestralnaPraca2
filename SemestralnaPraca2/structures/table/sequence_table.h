@@ -4,7 +4,7 @@
 #include "../list/list.h"
 #include <stdexcept>
 
-namespace structures 
+namespace structures
 {
 
 	/// <summary> Sekvencna tabulka. </summary>
@@ -168,17 +168,18 @@ namespace structures
 	template<typename K, typename T>
 	inline bool SequenceTable<K, T>::insert(const K & key, const T & data)
 	{
-		if (!containsKey(key))
-		{
-			TableItem<K, T>* tableItem = new TableItem<K, T>(key, data);
-			list_->add(tableItem);
-			return true;
-		}
-		else
-		{
-			//throw std::logic_error("SequenceTable<K, T>::insert: Key already present in the table!");
-			return false;
-		}
+		TableItem<K, T>* tableItem = new TableItem<K, T>(key, data);
+		list_->add(tableItem);
+		return true;
+
+		//if (!containsKey(key))
+		//{
+		//}
+		//else
+		//{
+		//	//throw std::logic_error("SequenceTable<K, T>::insert: Key already present in the table!");
+		//	return false;
+		//}
 	}
 
 	template<typename K, typename T>

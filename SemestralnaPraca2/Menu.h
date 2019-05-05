@@ -1,19 +1,22 @@
 #pragma once
 #include "structures/table/unsorted_sequence_table.h"
 #include "structures/table/sorted_sequence_table.h"
-#include "structures/table/treap.h"
 #include "DataObec.h"
 
 class Menu
 {
 private:
 	structures::SortedSequenceTable<std::string, Data*>* obecData;
+	structures::UnsortedSequenceTable<std::string, Data*>* obecDataUns;
 	structures::SortedSequenceTable<std::string, Data*>* okresData;
 	structures::SortedSequenceTable<std::string, Data*>* krajData;
-	structures::Treap<double, Data*>* obecDataVolici;
+	
 
-	bool run_ = true;
-
+	bool run_ = true;	
+		
+	void vypis21(int zoradenie, structures::UnsortedSequenceTable<std::string, Data*>* table);
+	void vypis22(int zoradenie, structures::UnsortedSequenceTable<std::string, Data*>* table, int kolo);
+	void vypis23(int zoradenie, structures::UnsortedSequenceTable<std::string, Data*>* table, int kolo);
 	void zoradUzemneJednotky();
 	void vypisInfoOUzemnychJednotkach();
 	void vypisMenu();
