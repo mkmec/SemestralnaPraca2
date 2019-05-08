@@ -1,4 +1,5 @@
 #pragma once
+#include "structures/heap_monitor.h"
 #include "structures/table/unsorted_sequence_table.h"
 #include "structures/table/sorted_sequence_table.h"
 #include "DataObec.h"

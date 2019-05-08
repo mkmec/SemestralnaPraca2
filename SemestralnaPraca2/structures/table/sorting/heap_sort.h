@@ -31,7 +31,7 @@ namespace structures
 		bool vymena;
 		int aktualny, otec, lavy, pravy, max;
 
-		for (int i = 1; i <= table.size() - 1; i++)
+		for (int i = 1; i <= static_cast<int>(table.size()) - 1; i++)
 		{
 			aktualny = i;
 			do
@@ -84,7 +84,7 @@ namespace structures
 		bool vymena;
 		int aktualny, otec, lavy, pravy, max;
 
-		for (int i = 1; i <= table.size() - 1; i++)
+		for (int i = 1; i <= static_cast<int>(table.size()) - 1; i++)
 		{
 			aktualny = i;
 			do

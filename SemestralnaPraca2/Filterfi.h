@@ -1,4 +1,5 @@
 #pragma once
+#include "structures/heap_monitor.h"
 #include "Kriterium.h"
 #include "Filter.h"
 

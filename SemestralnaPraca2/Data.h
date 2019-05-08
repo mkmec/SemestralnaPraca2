@@ -1,4 +1,5 @@
 #pragma once
+#include "structures/heap_monitor.h"
 #include <string>
 
 class Data

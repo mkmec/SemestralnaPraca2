@@ -1,3 +1,4 @@
+#include "structures/heap_monitor.h"
 #include "Menu.h"
 #include <string>
 #include <iostream>
@@ -297,7 +298,7 @@ void Menu::vypisInfoOUzemnychJednotkach()
 
 		cout << "Zadajte nazov uzemnej jednotky:\n"
 			">>";
-		cin.ignore();
+		//cin.ignore();
 		getline(cin, uzJednotka);
 
 		obec = uzJednotka.find("obec");
@@ -323,38 +324,6 @@ void Menu::vypisInfoOUzemnychJednotkach()
 			Data* uzemnaJednotka;
 			found = krajData->tryFind(uzJednotka, uzemnaJednotka);
 			if (found) uzemnaJednotka->vypisInfo();
-		}
-		else
-		{
-			cout << "\nZadana uzemna jednotka sa nenasla.\n";
-		}
-
-		if (found)
-		{
-			/*cout << endl << "Nazov uzemnej jednotky: " << kriteriumNazov->ohodnot(*obec) << endl;
-			cout << "Uzemna jednotka patri do vyssich celkov: " << obec->getOkres() << ", " << obec->getKraj() << endl;
-			kriteriumVolici->setKolo(1);
-			cout << "Pocet volicov " << kriteriumVolici->ohodnot(*obec) << " v prvom kole a ";
-			kriteriumVolici->setKolo(2);
-			cout << kriteriumVolici->ohodnot(*obec) << " v druhom kole." << endl;
-
-			kriteriumVydaneObalky->setKolo(1);
-			cout << "Pocet vydanych obalok " << kriteriumVydaneObalky->ohodnot(*obec) << " v prvom kole a ";
-			kriteriumVydaneObalky->setKolo(2);
-			cout << kriteriumVydaneObalky->ohodnot(*obec) << " v druhom kole." << endl;
-
-			kriteriumUcast->setKolo(1);
-			cout << "Ucast " << kriteriumUcast->ohodnot(*obec) << "% v prvom kole a ";
-			kriteriumUcast->setKolo(2);
-			cout << kriteriumUcast->ohodnot(*obec) << "% v druhom kole." << endl;
-
-			kriteriumOdovzdaneObalky->setKolo(1);
-			cout << "Pocet odovzdanych obalok " << kriteriumOdovzdaneObalky->ohodnot(*obec) << " v prvom kole a ";
-			kriteriumOdovzdaneObalky->setKolo(2);
-			cout << kriteriumOdovzdaneObalky->ohodnot(*obec) << " v druhom kole." << endl;*/
-
-			//uzemnaJednotka->vypisInfo();
-
 		}
 		else
 		{
@@ -454,18 +423,11 @@ void Menu::vypisInfoOUzemnychJednotkach()
 void Menu::vypisMenu()
 {
 	cout << "\n_____________________________";
-	cout << "\nCaputka s.r.o" << endl;
 	cout << "\nVyber moznost:\n"
 		"0. Ukonci aplikaciu\n"
 		"1. Vypisanie informaci o uzemnych jednotkach\n"
 		"2. Zoradenie uzemnych jednotiek podla filtra\n"
 		"3. \n"
-		"4. \n"
-		"5. \n"
-		"6. \n"
-		"7. \n"
-		"8. \n"
-		"15. \n"
 		"10. Nacitaj data\n"
 		">>";
 }
