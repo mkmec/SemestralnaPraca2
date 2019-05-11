@@ -14,7 +14,9 @@ private:
 	
 
 	bool run_ = true;	
-		
+
+	
+	void vypisKandidatovVUZ();
 	void vypis21(int zoradenie, structures::UnsortedSequenceTable<std::string, Data*>* table);
 	void vypis22(int zoradenie, structures::UnsortedSequenceTable<std::string, Data*>* table, int kolo);
 	void vypis23(int zoradenie, structures::UnsortedSequenceTable<std::string, Data*>* table, int kolo);

@@ -25,6 +25,7 @@
     <ClInclude Include="DataOkres.h" />
     <ClInclude Include="Filter.h" />
     <ClInclude Include="Filterfi.h" />
+    <ClInclude Include="FilterMeno.h" />
     <ClInclude Include="FilterNazov.h" />
     <ClInclude Include="FilterPrislusnostObce.h" />
     <ClInclude Include="FilterUcast.h" />
@@ -32,6 +33,8 @@
     <ClInclude Include="Filter_FI.h" />
     <ClInclude Include="Kandidat.h" />
     <ClInclude Include="Kriterium.h" />
+    <ClInclude Include="KriteriumHlasyOdovzdane.h" />
+    <ClInclude Include="KriteriumMeno.h" />
     <ClInclude Include="KriteriumNazov.h" />
     <ClInclude Include="KriteriumOdovzdaneObalky.h" />
     <ClInclude Include="KriteriumPrislusnostObce.h" />

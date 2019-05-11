@@ -1,9 +1,10 @@
-#include "structures/heap_monitor.h"
+//#include "structures/heap_monitor.h"
 #include "Data.h"
 #include <string>
 #include <iostream>
 
 using namespace std;
+using namespace structures;
 
 
 void Data::vypisInfo()
@@ -39,7 +40,8 @@ Data::Data(string nazov, string okres, string kraj, int pocetZapisanychVolicov, 
 	pocetVydanychObalok2_(pocetVydanychObalok2),
 	ucast2_(ucast2),
 	pocetOdovzdanychObalok2_(pocetOdovzdanychObalok2),
-	pocetPlatnychHlasov2_(pocetPlatnychHlasov2)
+	pocetPlatnychHlasov2_(pocetPlatnychHlasov2),
+	kandidati_(new structures::SortedSequenceTable<std::string, Kandidat*>())
 {
 }
 
@@ -55,7 +57,8 @@ Data::Data(std::string nazov, std::string kraj, int pocetZapisanychVolicov, int 
 	pocetVydanychObalok2_(pocetVydanychObalok2),
 	ucast2_(ucast2),
 	pocetOdovzdanychObalok2_(pocetOdovzdanychObalok2),
-	pocetPlatnychHlasov2_(pocetPlatnychHlasov2)
+	pocetPlatnychHlasov2_(pocetPlatnychHlasov2),
+	kandidati_(new structures::SortedSequenceTable<std::string, Kandidat*>())
 {
 }
 
@@ -70,16 +73,23 @@ Data::Data(std::string nazov, int pocetZapisanychVolicov, int pocetVydanychObalo
 	pocetVydanychObalok2_(pocetVydanychObalok2),
 	ucast2_(ucast2),
 	pocetOdovzdanychObalok2_(pocetOdovzdanychObalok2),
-	pocetPlatnychHlasov2_(pocetPlatnychHlasov2)
+	pocetPlatnychHlasov2_(pocetPlatnychHlasov2),
+	kandidati_(new structures::SortedSequenceTable<std::string, Kandidat*>())
 {
 
 }
 
-Data::Data()
+Data::Data():
+	kandidati_(new structures::SortedSequenceTable<std::string, Kandidat*>())
 {
 }
 
 
 Data::~Data()
 {
+	for (DataItem<Kandidat*>* item : *kandidati_)
+	{
+		delete item->accessData();
+	}
+	delete kandidati_;
 }

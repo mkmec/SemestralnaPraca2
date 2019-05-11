@@ -249,6 +249,15 @@
     <ClInclude Include="Kandidat.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="KriteriumHlasyOdovzdane.h">
+      <Filter>Header Files\Kriteria</Filter>
+    </ClInclude>
+    <ClInclude Include="KriteriumMeno.h">
+      <Filter>Header Files\Kriteria</Filter>
+    </ClInclude>
+    <ClInclude Include="FilterMeno.h">
+      <Filter>Header Files\Filtre</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
