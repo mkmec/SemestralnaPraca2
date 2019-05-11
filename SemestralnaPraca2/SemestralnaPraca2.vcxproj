@@ -30,6 +30,7 @@
     <ClInclude Include="FilterUcast.h" />
     <ClInclude Include="FilterVolici.h" />
     <ClInclude Include="Filter_FI.h" />
+    <ClInclude Include="Kandidat.h" />
     <ClInclude Include="Kriterium.h" />
     <ClInclude Include="KriteriumNazov.h" />
     <ClInclude Include="KriteriumOdovzdaneObalky.h" />
@@ -96,6 +97,7 @@
     <ClCompile Include="DataKraj.cpp" />
     <ClCompile Include="DataObec.cpp" />
     <ClCompile Include="DataOkres.cpp" />
+    <ClCompile Include="Kandidat.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Menu.cpp" />
     <ClCompile Include="structures\ds_routines.cpp" />

@@ -246,6 +246,9 @@
     <ClInclude Include="KriteriumPrislusnostObce.h">
       <Filter>Header Files\Kriteria</Filter>
     </ClInclude>
+    <ClInclude Include="Kandidat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -294,6 +297,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="DataKraj.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Kandidat.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

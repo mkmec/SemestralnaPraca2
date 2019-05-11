@@ -1,10 +1,13 @@
 #pragma once
 #include "structures/heap_monitor.h"
 #include <string>
+#include "structures/table/treap.h"
+#include "Kandidat.h"
 
 class Data
 {
 private:
+	structures::Treap<std::string, Kandidat*>* kandidati = new structures::Treap<std::string, Kandidat*>();
 	std::string nazov_, okres_, kraj_;
 	int pocetZapisanychVolicov_, pocetVydanychObalok_, pocetOdovzdanychObalok_, pocetPlatnychHlasov_, pocetZapisanychVolicov2_, pocetVydanychObalok2_, pocetOdovzdanychObalok2_, pocetPlatnychHlasov2_;
 	double ucast_, ucast2_;
