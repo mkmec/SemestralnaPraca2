@@ -1,4 +1,4 @@
-//#include "structures/heap_monitor.h"
+#include "structures/heap_monitor.h"
 #include "Data.h"
 #include <string>
 #include <iostream>

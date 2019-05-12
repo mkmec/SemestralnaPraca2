@@ -1,5 +1,5 @@
 #pragma once
-//#include "structures/heap_monitor.h"
+#include "structures/heap_monitor.h"
 #include <string>
 #include "structures/table/sorted_sequence_table.h"
 #include "Kandidat.h"

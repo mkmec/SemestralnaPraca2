@@ -328,7 +328,6 @@ void Menu::zoradUzemneJednotky()
 {
 	int spodnaHranica, hornaHranica, kolo, zoradenie, kriterium, volba;
 	string prislusnost;
-	//SortedSequenceTable<string, Data>* utriedeneObce = new SortedSequenceTable<string, Data>();
 
 	KriteriumPrislusnostObce<bool, Data>* kriteriumPrislusnostObce = new KriteriumPrislusnostObce<bool, Data>();
 	Kriterium<string, Data>* kriteriumNazov = new KriteriumNazov<string, Data>();
@@ -537,8 +536,7 @@ void Menu::vypisInfoOUzemnychJednotkach()
 		bool found = false;
 
 		cout << "Zadajte nazov uzemnej jednotky:\n"
-			">>";
-		//cin.ignore();
+			">>";		
 		getline(cin, uzJednotka);
 
 		obec = uzJednotka.find("obec");
@@ -913,31 +911,6 @@ void Menu::nacitajData()
 		krajData->insert(kraj, newKraj);
 
 	}
-
-	//for (auto item : *krajData)
-	//{
-	//	for (int i = 0; i < 15; i++)
-	//	{
-	//		getline(krajKandidati1, line);
-
-	//		stringstream pomStream(line);
-
-	//		getline(pomStream, meno, ';');
-	//		getline(pomStream, priezvisko, ';');
-	//		getline(pomStream, var1, ';');
-
-	//		pocetHlasov = stoi(var1);
-
-	//		item->accessData()->pridajKandidata(meno, priezvisko, pocetHlasov);
-	//		
-	//		
-	//	}
-
-
-	//	
-	//	cout << item->accessData()->getKandidati()->operator[]("Caputova")->getPriezvisko() << endl;
-	//	
-	//}
 
 	cout << "\nNacitavanie dokoncene.\n";
 }

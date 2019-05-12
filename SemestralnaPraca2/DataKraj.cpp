@@ -1,8 +1,7 @@
-//#include "structures/heap_monitor.h"
+#include "structures/heap_monitor.h"
 #include "DataKraj.h"
 
 
 DataKraj::~DataKraj()
 {
-	//Data::~Data();
 }
